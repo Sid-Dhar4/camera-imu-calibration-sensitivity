@@ -1,0 +1,15 @@
+
+Files:             MH_01_easy.db3
+Bag size:          2.5 GiB
+Storage id:        sqlite3
+ROS Distro:        rosbags
+Duration:          187.749443066s
+Start:             Jun 24 2014 15:02:58.946206122 (1403636578.946206122)
+End:               Jun 24 2014 15:06:06.695649188 (1403636766.695649188)
+Messages:          47283
+Topic information: Topic: /cam0/image_raw | Type: sensor_msgs/msg/Image | Count: 3682 | Serialization Format: cdr
+                   Topic: /cam1/image_raw | Type: sensor_msgs/msg/Image | Count: 3682 | Serialization Format: cdr
+                   Topic: /imu0 | Type: sensor_msgs/msg/Imu | Count: 36820 | Serialization Format: cdr
+                   Topic: /leica/position | Type: geometry_msgs/msg/PointStamped | Count: 3099 | Serialization Format: cdr
+Service:           0
+Service information: 
