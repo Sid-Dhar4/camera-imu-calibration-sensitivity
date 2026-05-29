@@ -14,39 +14,70 @@ from calibration_perturb.transforms import (
 )
 
 
-DATA_RE = re.compile(r"data:\\s*\\[([^\\]]+)\\]")
+ROW_RE = re.compile(r"^(?P<indent>\s*)-\s*\[(?P<values>[^\]]+)\]\s*$")
 
 
-def parse_numbers(data_text: str) -> list[float]:
-    return [float(x.strip()) for x in data_text.replace("\\n", " ").split(",") if x.strip()]
+def parse_row_values(line: str) -> list[float]:
+    match = ROW_RE.match(line)
+    if not match:
+        raise ValueError(f"Not a matrix row: {line!r}")
+    return [float(x.strip()) for x in match.group("values").split(",") if x.strip()]
 
 
-def format_matrix_data(values: list[float]) -> str:
-    if len(values) != 16:
-        raise ValueError(f"Expected 16 values, got {len(values)}")
+def format_row(indent: str, values: list[float]) -> str:
     formatted = ", ".join(f"{v:.12g}" for v in values)
-    return f"data: [{formatted}]"
+    return f"{indent}- [{formatted}]"
 
 
 def perturb_imucam_yaml_text(text: str, axis: str, angle_deg: float) -> tuple[str, int]:
+    lines = text.splitlines()
+    output = []
+    i = 0
     count = 0
 
-    def repl(match: re.Match) -> str:
-        nonlocal count
-        nums = parse_numbers(match.group(1))
-        if len(nums) != 16:
-            return match.group(0)
-        T = make_transform(nums)
-        T_new = perturb_T_imu_cam_rotation_left(T, axis=axis, angle_deg=angle_deg)
-        count += 1
-        return format_matrix_data(flatten_transform(T_new))
+    while i < len(lines):
+        line = lines[i]
+        output.append(line)
 
-    new_text = DATA_RE.sub(repl, text)
-    return new_text, count
+        if "T_imu_cam:" not in line:
+            i += 1
+            continue
+
+        if i + 4 >= len(lines):
+            raise ValueError("Found T_imu_cam but not enough following rows for a 4x4 matrix")
+
+        matrix_lines = lines[i + 1 : i + 5]
+        rows = []
+        indents = []
+
+        for row_line in matrix_lines:
+            match = ROW_RE.match(row_line)
+            if not match:
+                raise ValueError(f"Expected matrix row after T_imu_cam, got: {row_line!r}")
+            indents.append(match.group("indent"))
+            rows.append(parse_row_values(row_line))
+
+        if any(len(row) != 4 for row in rows):
+            raise ValueError(f"Expected 4 values in each row, got row lengths: {[len(row) for row in rows]}")
+
+        flat = [value for row in rows for value in row]
+        T = make_transform(flat)
+        T_new = perturb_T_imu_cam_rotation_left(T, axis=axis, angle_deg=angle_deg)
+        new_rows = [flatten_transform(T_new)[j : j + 4] for j in range(0, 16, 4)]
+
+        for indent, row_values in zip(indents, new_rows):
+            output.append(format_row(indent, row_values))
+
+        count += 1
+        i += 5
+
+    return "\n".join(output) + "\n", count
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Apply controlled rotation perturbation to all T_imu_cam matrices in a Kalibr imucam YAML.")
+    parser = argparse.ArgumentParser(
+        description="Apply controlled rotation perturbation to all T_imu_cam matrices in a Kalibr imucam YAML."
+    )
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--axis", required=True, choices=["x", "y", "z"])
@@ -55,8 +86,9 @@ def main() -> int:
 
     text = args.input.read_text()
     new_text, count = perturb_imucam_yaml_text(text, args.axis, args.angle_deg)
+
     if count == 0:
-        print("ERROR: no 4x4 data matrices were perturbed")
+        print("ERROR: no T_imu_cam matrices were perturbed")
         return 1
 
     args.output.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,5 @@
+input: configs/nominal/openvins/euroc_mav/kalibr_imucam_chain.yaml
+output: configs/generated/openvins/MH_01_easy/rotation_z_5deg/kalibr_imucam_chain.yaml
+axis: z
+angle_deg: 5.0
+matrices_perturbed: 2
