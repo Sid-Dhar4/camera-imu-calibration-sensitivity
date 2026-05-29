@@ -1,0 +1,5 @@
+[32moverriding node [1m[32mverbosity[0m[32m with value from ROS!
+[0mSetting printing level to: INFO
+subscribing to IMU: /imu0
+subscribing to cam (stereo): /cam0/image_raw
+subscribing to cam (stereo): /cam1/image_raw
