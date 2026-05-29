@@ -19,7 +19,7 @@
 | 7 | 2026-05-29 | OpenVINS trajectory converted to TUM | 943188a |
 | 8 | 2026-05-29 | EuRoC ground truth converted to TUM | 65535bb |
 | 9 | 2026-05-29 | evo ATE/RPE evaluation complete | 8d0901a, be2f019 |
-| 10 | 2026-05-29 | First evaluated nominal metrics.csv row | pending |
+| 10 | 2026-05-29 | First evaluated nominal metrics.csv row | 0ae085c attempted, corrected by current commit |
 
 ## Run tracker
 | run_id | sequence | perturbation | status | output path | notes |
@@ -59,3 +59,4 @@
 | 2026-05-28 | OpenVINS build failed in ov_init | CMake could not find CeresConfig.cmake / ceres-config.cmake | Installed/verified libceres-dev and rebuilt from clean build state | Save build logs and inspect exact package failure before changing code |
 | 2026-05-28 | OpenVINS smoke run crashed at startup | save_total_state used default output filenames with empty parent paths | Passed explicit filepath_est/filepath_std/filepath_gt parameters | Treat startup crashes as environment/config issues, not estimator failures |
 | 2026-05-29 | evo_rpe failed with delta_unit=s | This evo version accepts f/d/r/m, not seconds | Used delta 20 frames with delta_unit f | Verify CLI options against installed tool version |
+| 2026-05-29 | metrics row updater committed after failed run | Script had invalid escaped f-string syntax and metrics.csv still had only header | Replaced updater, reran it, verified one data row | Schema checks verify structure, not whether rows exist |

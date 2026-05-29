@@ -23,7 +23,7 @@ def parse_bag_duration(path: Path) -> float | None:
     if not path.exists():
         return None
     text = path.read_text()
-    match = re.search(r"Duration:\s+([0-9.]+)s", text)
+    match = re.search(r"Duration:\\s+([0-9.]+)s", text)
     if not match:
         return None
     return float(match.group(1))
@@ -64,12 +64,12 @@ def main() -> int:
         "config_path": f"results/configs_used/{run_id}/estimator_config_full_safe.yaml",
         "trajectory_path": f"results/trajectories/nominal/{run_id}/openvins_estimate.tum",
         "status": "success",
-        "ate_rmse_m": f"{evo[\"ate_rmse_m\"]:.6f}",
-        "rpe_trans_rmse_m": f"{evo[\"rpe_trans_rmse_m\"]:.6f}",
-        "rpe_rot_rmse_deg": f"{evo[\"rpe_rot_rmse_deg\"]:.6f}",
+        "ate_rmse_m": "{:.6f}".format(evo["ate_rmse_m"]),
+        "rpe_trans_rmse_m": "{:.6f}".format(evo["rpe_trans_rmse_m"]),
+        "rpe_rot_rmse_deg": "{:.6f}".format(evo["rpe_rot_rmse_deg"]),
         "runtime_s": "",
-        "estimated_duration_s": f"{estimated_duration_s:.6f}",
-        "completion_rate": f"{completion_rate:.6f}" if completion_rate != "" else "",
+        "estimated_duration_s": "{:.6f}".format(estimated_duration_s),
+        "completion_rate": "{:.6f}".format(completion_rate) if completion_rate != "" else "",
         "failure_reason": "",
         "notes": "Full nominal MH01 OpenVINS run; SE3 alignment no scale; RPE delta 20 frames.",
     }
