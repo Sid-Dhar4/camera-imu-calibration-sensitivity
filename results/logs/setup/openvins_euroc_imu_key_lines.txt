@@ -1,0 +1,15 @@
+3:imu0:
+9:  accelerometer_noise_density: 2.0000e-3  # [ m / s^2 / sqrt(Hz) ]   ( accel "white noise" )
+10:  accelerometer_random_walk: 3.0000e-3    # [ m / s^3 / sqrt(Hz) ].  ( accel bias diffusion )
+11:  gyroscope_noise_density: 1.6968e-04     # [ rad / s / sqrt(Hz) ]   ( gyro "white noise" )
+12:  gyroscope_random_walk: 1.9393e-05       # [ rad / s^2 / sqrt(Hz) ] ( gyro bias diffusion )
+13:  rostopic: /imu0
+15:  update_rate: 200.0
+19:  # how to get from Kalibr imu.yaml result file:
+20:  #   - Tw is imu0:gyroscopes:M:
+21:  #   - R_IMUtoGYRO: is imu0:gyroscopes:C_gyro_i:
+22:  #   - Ta is imu0:accelerometers:M:
+23:  #   - R_IMUtoACC not used by Kalibr
+24:  #   - Tg is imu0:gyroscopes:A:
+29:  R_IMUtoGYRO:
+37:  R_IMUtoACC:

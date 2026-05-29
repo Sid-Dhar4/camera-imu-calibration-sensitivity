@@ -1,0 +1,37 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'namespace':
+        namespace
+        (default: 'ov_msckf')
+
+    'ov_enable':
+        enable OpenVINS node
+        (default: 'true')
+
+    'rviz_enable':
+        enable rviz node
+        (default: 'false')
+
+    'config':
+        euroc_mav, tum_vi, rpng_aruco...
+        (default: 'euroc_mav')
+
+    'config_path':
+        path to estimator_config.yaml. If not given, determined based on provided 'config' above
+        (default: '')
+
+    'verbosity':
+        ALL, DEBUG, INFO, WARNING, ERROR, SILENT
+        (default: 'INFO')
+
+    'use_stereo':
+        if we have more than 1 camera, if we should try to track stereo constraints between pairs
+        (default: 'true')
+
+    'max_cameras':
+        how many cameras we have 1 = mono, 2 = stereo, >2 = binocular (all mono tracking)
+        (default: '2')
+
+    'save_total_state':
+        record the total state with calibration and features to a txt file
+        (default: 'false')
