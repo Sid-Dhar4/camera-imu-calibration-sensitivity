@@ -1,0 +1,538 @@
+Starting >>> ov_core
+Starting >>> ov_data
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4") 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- EIGEN: 3.4.0 | OPENCV: 4.6.0 | BOOST: 1.83.0
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- PYTHON VERSION: 3.12.3
+-- PYTHON INCLUDE: /usr/include/python3.12
+-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+-- ROS *2* version found
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_data
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ament_index/resource_index/package_run_dependencies/ov_data
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ament_index/resource_index/parent_prefix_path/ov_data
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ament_index/resource_index/packages/ov_data
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/cmake/ov_dataConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/cmake/ov_dataConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/package.xml
+--- stderr: ov_data
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+---
+Finished <<< ov_data [0.67s]
+-- ROS *2* version found, building ROS2.cmake
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (include)
+
+
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_core
+[ 10%] Building CXX object CMakeFiles/ov_core_lib.dir/src/cpi/CpiV1.cpp.o
+[  5%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackAruco.cpp.o
+[ 21%] Building CXX object CMakeFiles/ov_core_lib.dir/src/dummy.cpp.o
+[ 21%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackBase.cpp.o
+[ 31%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackDescriptor.cpp.o
+[ 31%] Building CXX object CMakeFiles/ov_core_lib.dir/src/sim/BsplineSE3.cpp.o
+[ 36%] Building CXX object CMakeFiles/ov_core_lib.dir/src/cpi/CpiV2.cpp.o
+[ 42%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackKLT.cpp.o
+[ 47%] Building CXX object CMakeFiles/ov_core_lib.dir/src/feat/FeatureDatabase.cpp.o
+[ 52%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackSIM.cpp.o
+[ 57%] Building CXX object CMakeFiles/ov_core_lib.dir/src/types/Landmark.cpp.o
+[ 63%] Building CXX object CMakeFiles/ov_core_lib.dir/src/feat/FeatureInitializer.cpp.o
+[ 73%] Building CXX object CMakeFiles/ov_core_lib.dir/src/feat/Feature.cpp.o
+[ 73%] Building CXX object CMakeFiles/ov_core_lib.dir/src/utils/print.cpp.o
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /usr/include/eigen3/Eigen/Eigen:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/utils/opencv_yaml_parse.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializerOptions.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.h:27,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.cpp:22:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 78%] Linking CXX shared library libov_core_lib.so
+[ 78%] Built target ov_core_lib
+[ 84%] Building CXX object CMakeFiles/test_profile.dir/src/test_profile.cpp.o
+[ 89%] Building CXX object CMakeFiles/test_webcam.dir/src/test_webcam.cpp.o
+[ 94%] Linking CXX executable test_webcam
+[ 94%] Built target test_webcam
+[Processing: ov_core]
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/test_profile.cpp:27:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<float, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const float*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = float; bool ConjLhs = false; RhsScalar = float; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[100%] Linking CXX executable test_profile
+[100%] Built target test_profile
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/lib/libov_core_lib.so
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_core/lib/libov_core_lib.so" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam/CamBase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam/CamEqui.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam/CamRadtan.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/opencv_lambda_body.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/print.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/colors.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/sensor_data.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/dataset_reader.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/opencv_yaml_parse.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/quat_ops.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackBase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackDescriptor.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/Grider_GRID.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackAruco.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackKLT.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackSIM.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/Grider_FAST.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/sim
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/sim/BsplineSE3.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi/CpiBase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi/CpiV2.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi/CpiV1.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/LandmarkRepresentation.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/IMU.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/JPLQuat.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/Type.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/Landmark.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/PoseJPL.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/Vec.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureInitializerOptions.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureInitializer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/Feature.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureDatabase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureHelper.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/library_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/library_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_webcam
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_webcam" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_profile
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_profile" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ament_index/resource_index/package_run_dependencies/ov_core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ament_index/resource_index/parent_prefix_path/ov_core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ament_index/resource_index/packages/ov_core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ov_coreConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ov_coreConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/package.xml
+--- stderr: ov_core
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (include)
+
+
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /usr/include/eigen3/Eigen/Eigen:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/utils/opencv_yaml_parse.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializerOptions.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.h:27,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.cpp:22:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/test_profile.cpp:27:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<float, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const float*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = float; bool ConjLhs = false; RhsScalar = float; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+Finished <<< ov_core [44.9s]
+Starting >>> ov_init
+Starting >>> ov_eval
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- EIGEN: 3.4.0 | BOOST: 1.83.0
+CMake Warning (dev) at CMakeLists.txt:15 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- PYTHON VERSION: 3.12.3
+-- PYTHON INCLUDE: /usr/include/python3.12
+-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+CMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Ceres", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Ceres" with any of
+  the following names:
+
+    CeresConfig.cmake
+    ceres-config.cmake
+
+  Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+  "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+--- stderr: ov_init
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Ceres", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Ceres" with any of
+  the following names:
+
+    CeresConfig.cmake
+    ceres-config.cmake
+
+  Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+  "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+---
+Failed   <<< ov_init [0.38s, exited with code 1]
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- ROS *2* version found, building ROS2.cmake
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (include)
+
+
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ov_core: 2.7.0 (/home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_eval
+Aborted  <<< ov_eval [0.97s]
+
+Summary: 2 packages finished [46.0s]
+  1 package failed: ov_init
+  1 package aborted: ov_eval
+  4 packages had stderr output: ov_core ov_data ov_eval ov_init
+  1 package not processed

@@ -1,0 +1,3 @@
+/home/sudha/openvins_ws_jazzy/src/open_vins/config/euroc_mav/estimator_config.yaml
+/home/sudha/openvins_ws_jazzy/src/open_vins/config/euroc_mav/kalibr_imucam_chain.yaml
+/home/sudha/openvins_ws_jazzy/src/open_vins/config/euroc_mav/kalibr_imu_chain.yaml

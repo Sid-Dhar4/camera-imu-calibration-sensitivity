@@ -1,0 +1,1339 @@
+Starting >>> ov_core
+Starting >>> ov_data
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- EIGEN: 3.4.0 | OPENCV: 4.6.0 | BOOST: 1.83.0
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- PYTHON VERSION: 3.12.3
+-- PYTHON INCLUDE: /usr/include/python3.12
+-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+-- ROS *2* version found
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_data
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ament_index/resource_index/package_run_dependencies/ov_data
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ament_index/resource_index/parent_prefix_path/ov_data
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ament_index/resource_index/packages/ov_data
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/cmake/ov_dataConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/cmake/ov_dataConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_data/share/ov_data/package.xml
+--- stderr: ov_data
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+---
+Finished <<< ov_data [0.57s]
+-- ROS *2* version found, building ROS2.cmake
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (include)
+
+
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_core
+[ 26%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackDescriptor.cpp.o
+[ 26%] Building CXX object CMakeFiles/ov_core_lib.dir/src/cpi/CpiV2.cpp.o
+[ 26%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackKLT.cpp.o
+[ 31%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackAruco.cpp.o
+[ 26%] Building CXX object CMakeFiles/ov_core_lib.dir/src/cpi/CpiV1.cpp.o
+[ 31%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackBase.cpp.o
+[ 36%] Building CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackSIM.cpp.o
+[ 42%] Building CXX object CMakeFiles/ov_core_lib.dir/src/types/Landmark.cpp.o
+[ 52%] Building CXX object CMakeFiles/ov_core_lib.dir/src/utils/print.cpp.o
+[ 47%] Building CXX object CMakeFiles/ov_core_lib.dir/src/dummy.cpp.o
+[ 63%] Building CXX object CMakeFiles/ov_core_lib.dir/src/feat/Feature.cpp.o
+[ 73%] Building CXX object CMakeFiles/ov_core_lib.dir/src/sim/BsplineSE3.cpp.o
+[ 73%] Building CXX object CMakeFiles/ov_core_lib.dir/src/feat/FeatureInitializer.cpp.o
+[ 73%] Building CXX object CMakeFiles/ov_core_lib.dir/src/feat/FeatureDatabase.cpp.o
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /usr/include/eigen3/Eigen/Eigen:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/utils/opencv_yaml_parse.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializerOptions.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.h:27,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.cpp:22:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 78%] Linking CXX shared library libov_core_lib.so
+[ 78%] Built target ov_core_lib
+[ 89%] Building CXX object CMakeFiles/test_profile.dir/src/test_profile.cpp.o
+[ 89%] Building CXX object CMakeFiles/test_webcam.dir/src/test_webcam.cpp.o
+[ 94%] Linking CXX executable test_webcam
+[ 94%] Built target test_webcam
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/test_profile.cpp:27:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<float, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const float*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = float; bool ConjLhs = false; RhsScalar = float; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[100%] Linking CXX executable test_profile
+[Processing: ov_core]
+[100%] Built target test_profile
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/lib/libov_core_lib.so
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_core/lib/libov_core_lib.so" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam/CamBase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam/CamEqui.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cam/CamRadtan.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/opencv_lambda_body.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/print.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/colors.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/sensor_data.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/dataset_reader.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/opencv_yaml_parse.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/utils/quat_ops.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackBase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackDescriptor.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/Grider_GRID.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackAruco.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackKLT.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/TrackSIM.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/track/Grider_FAST.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/sim
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/sim/BsplineSE3.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi/CpiBase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi/CpiV2.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/cpi/CpiV1.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/LandmarkRepresentation.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/IMU.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/JPLQuat.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/Type.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/Landmark.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/PoseJPL.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/types/Vec.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureInitializerOptions.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureInitializer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/Feature.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureDatabase.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/include/feat/FeatureHelper.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/library_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/library_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_webcam
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_webcam" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_profile
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_core/lib/ov_core/test_profile" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ament_index/resource_index/package_run_dependencies/ov_core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ament_index/resource_index/parent_prefix_path/ov_core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ament_index/resource_index/packages/ov_core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ov_coreConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake/ov_coreConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/package.xml
+--- stderr: ov_core
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (include)
+
+
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /usr/include/eigen3/Eigen/Eigen:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/utils/opencv_yaml_parse.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializerOptions.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.h:27,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/feat/FeatureInitializer.cpp:22:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/eigen3/Eigen/Core:341,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_core/src/test_profile.cpp:27:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const double*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h: In function ‘static void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<float, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6]’:
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12: warning: ‘result’ may be used uninitialized [-Wmaybe-uninitialized]
+  327 |     internal::triangular_matrix_vector_product
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |       <Index,Mode,
+      |       ~~~~~~~~~~~~
+  329 |        LhsScalar, LhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  330 |        RhsScalar, RhsBlasTraits::NeedToConjugate,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  331 |        RowMajor>
+      |        ~~~~~~~~~
+  332 |       ::run(actualLhs.rows(),actualLhs.cols(),
+      |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  333 |             actualLhs.data(),actualLhs.outerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  334 |             actualRhsPtr,1,
+      |             ~~~~~~~~~~~~~~~
+  335 |             dest.data(),dest.innerStride(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  336 |             actualAlpha);
+      |             ~~~~~~~~~~~~
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24: note: by argument 5 of type ‘const float*’ to ‘static void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = float; bool ConjLhs = false; RhsScalar = float; bool ConjRhs = false; int Version = 0]’ declared here
+  105 | EIGEN_DONT_INLINE void triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+Finished <<< ov_core [44.6s]
+Starting >>> ov_init
+Starting >>> ov_eval
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- EIGEN: 3.4.0 | BOOST: 1.83.0
+CMake Warning (dev) at CMakeLists.txt:15 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- PYTHON VERSION: 3.12.3
+-- PYTHON INCLUDE: /usr/include/python3.12
+-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+-- Found Threads: TRUE  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- ROS *2* version found, building ROS2.cmake
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (include)
+
+
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found ov_core: 2.7.0 (/home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake)
+-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- EIGEN: 3.4.0 | OPENCV: 4.6.0 | BOOST: 1.83.0 | CERES: 2.2.0
+CMake Warning (dev) at CMakeLists.txt:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- PYTHON VERSION: 3.12.3
+-- PYTHON INCLUDE: /usr/include/python3.12
+-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_eval
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[ 22%] Building CXX object CMakeFiles/ov_eval_lib.dir/src/dummy.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_eval_lib.dir/src/alignment/AlignUtils.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultSimulation.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultTrajectory.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_eval_lib.dir/src/alignment/AlignTrajectory.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_eval_lib.dir/src/utils/Loader.cpp.o
+-- ROS *2* version found, building ROS2.cmake
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:55 (include)
+
+
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found ov_core: 2.7.0 (/home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_init
+[ 37%] Building CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImuCPIv1.cpp.o
+[ 37%] Building CXX object CMakeFiles/ov_init_lib.dir/src/ceres/State_JPLQuatLocal.cpp.o
+[ 37%] Building CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_GenericPrior.cpp.o
+[ 37%] Building CXX object CMakeFiles/ov_init_lib.dir/src/init/InertialInitializer.cpp.o
+[ 37%] Building CXX object CMakeFiles/ov_init_lib.dir/src/static/StaticInitializer.cpp.o
+[ 43%] Building CXX object CMakeFiles/ov_init_lib.dir/src/sim/SimulatorInit.cpp.o
+[ 56%] Building CXX object CMakeFiles/ov_init_lib.dir/src/dynamic/DynamicInitializer.cpp.o
+[ 50%] Building CXX object CMakeFiles/ov_init_lib.dir/src/dummy.cpp.o
+[ 56%] Building CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImageReprojCalib.cpp.o
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultSimulation.h:45,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultSimulation.cpp:22:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /usr/include/eigen3/Eigen/Core:294,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /usr/include/eigen3/Eigen/Eigen:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp:22:
+In copy constructor ‘Eigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::PlainObjectBase<Derived>&) [with Derived = Eigen::Matrix<double, 3, 1>]’,
+    inlined from ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]’ at /usr/include/eigen3/Eigen/src/Core/Matrix.h:414:65,
+    inlined from ‘static void ov_eval::AlignUtils::align_umeyama(const std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<Eigen::Matrix<double, 3, 1> >&, Eigen::Matrix<double, 3, 3>&, Eigen::Matrix<double, 3, 1>&, double&, bool, bool)’ at /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp:59:58:
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17: warning: ‘*(const double*)((char*)&svd + offsetof(Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 2>,Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 2>::<unnamed>.Eigen::SVDBase<Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 2> >::m_singularValues.Eigen::Matrix<double, 3, 1, 0, 3, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 1, 0, 3, 1> >::m_storage.Eigen::DenseStorage<double, 3, 3, 1, 0>::m_data.Eigen::internal::plain_array<double, 3, 0, 0>::array[2]))’ may be used uninitialized [-Wmaybe-uninitialized]
+  512 |       : Base(), m_storage(other.m_storage) { }
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp: In static member function ‘static void ov_eval::AlignUtils::align_umeyama(const std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<Eigen::Matrix<double, 3, 1> >&, Eigen::Matrix<double, 3, 3>&, Eigen::Matrix<double, 3, 1>&, double&, bool, bool)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp:56:49: note: ‘svd’ declared here
+   56 |   Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3>> svd(C, Eigen::ComputeFullV | Eigen::ComputeFullU);
+      |                                                 ^~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp: In member function ‘void ov_eval::ResultTrajectory::calculate_error(ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:373:63: warning: ‘cov_global.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ may be used uninitialized [-Wmaybe-uninitialized]
+  373 |       oriz.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_global(2, 2)));
+      |                                                      ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:314:21: note: ‘cov_global.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ was declared here
+  314 |     Eigen::Matrix3d cov_global;
+      |                     ^~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:384:63: warning: ‘*(double*)((char*)&cov_rpy + offsetof(Eigen::Matrix3d, Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::MatrixBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 3>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 0>::<unnamed>))’ may be used uninitialized [-Wmaybe-uninitialized]
+  384 |       roll.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_rpy(0, 0)));
+      |                                                      ~~~~~~~~~^~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:342:21: note: ‘*(double*)((char*)&cov_rpy + offsetof(Eigen::Matrix3d, Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::MatrixBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 3>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 0>::<unnamed>))’ was declared here
+  342 |     Eigen::Matrix3d cov_rpy;
+      |                     ^~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:385:64: warning: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[4]’ may be used uninitialized [-Wmaybe-uninitialized]
+  385 |       pitch.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_rpy(1, 1)));
+      |                                                       ~~~~~~~~~^~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:342:21: note: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[4]’ was declared here
+  342 |     Eigen::Matrix3d cov_rpy;
+      |                     ^~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:386:62: warning: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ may be used uninitialized [-Wmaybe-uninitialized]
+  386 |       yaw.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_rpy(2, 2)));
+      |                                                     ~~~~~~~~~^~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:342:21: note: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ was declared here
+  342 |     Eigen::Matrix3d cov_rpy;
+      |                     ^~~~~~~
+[ 25%] Linking CXX shared library libov_eval_lib.so
+[ 25%] Built target ov_eval_lib
+[ 40%] Building CXX object CMakeFiles/timing_comparison.dir/src/timing_comparison.cpp.o
+[ 40%] Building CXX object CMakeFiles/error_simulation.dir/src/error_simulation.cpp.o
+[ 40%] Building CXX object CMakeFiles/format_converter.dir/src/format_converter.cpp.o
+[ 44%] Building CXX object CMakeFiles/timing_histogram.dir/src/timing_histogram.cpp.o
+[ 40%] Building CXX object CMakeFiles/plot_trajectories.dir/src/plot_trajectories.cpp.o
+[ 48%] Building CXX object CMakeFiles/timing_flamegraph.dir/src/timing_flamegraph.cpp.o
+[ 51%] Building CXX object CMakeFiles/error_singlerun.dir/src/error_singlerun.cpp.o
+[ 55%] Building CXX object CMakeFiles/error_comparison.dir/src/error_comparison.cpp.o
+[ 59%] Building CXX object CMakeFiles/error_dataset.dir/src/error_dataset.cpp.o
+[ 62%] Building CXX object CMakeFiles/timing_percentages.dir/src/timing_percentages.cpp.o
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_flamegraph.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_percentages.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_comparison.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_histogram.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultSimulation.h:45,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_simulation.cpp:22:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+[ 66%] Linking CXX executable format_converter
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/plot_trajectories.cpp:42:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_singlerun.cpp:35:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+[ 66%] Built target format_converter
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_dataset.cpp:37:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+[ 70%] Linking CXX executable timing_histogram
+[ 74%] Linking CXX executable timing_flamegraph
+[ 77%] Linking CXX executable timing_comparison
+[ 77%] Built target timing_histogram
+[ 77%] Built target timing_flamegraph
+[ 77%] Built target timing_comparison
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_comparison.cpp:38:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+[ 81%] Linking CXX executable timing_percentages
+[ 81%] Built target timing_percentages
+[ 85%] Linking CXX executable error_simulation
+[ 85%] Built target error_simulation
+[ 88%] Linking CXX executable error_singlerun
+[ 88%] Built target error_singlerun
+[ 92%] Linking CXX executable plot_trajectories
+[ 92%] Built target plot_trajectories
+[ 96%] Linking CXX executable error_dataset
+[ 96%] Built target error_dataset
+[100%] Linking CXX executable error_comparison
+[100%] Built target error_comparison
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/libov_eval_lib.so
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/libov_eval_lib.so" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/alignment
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/alignment/AlignTrajectory.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/alignment/AlignUtils.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/utils
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/utils/Loader.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/utils/Recorder.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/utils/Statistics.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/calc
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/calc/ResultTrajectory.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/include/calc/ResultSimulation.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/environment/library_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/environment/library_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/format_converter
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/format_converter" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_comparison
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_comparison" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_dataset
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_dataset" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_singlerun
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_singlerun" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_simulation
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/error_simulation" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_comparison
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_comparison" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_flamegraph
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_flamegraph" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_histogram
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_histogram" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_percentages
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/timing_percentages" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/plot_trajectories
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_eval/lib/ov_eval/plot_trajectories" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ament_index/resource_index/package_run_dependencies/ov_eval
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ament_index/resource_index/parent_prefix_path/ov_eval
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ament_index/resource_index/packages/ov_eval
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/cmake/ov_evalConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/cmake/ov_evalConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_eval/share/ov_eval/package.xml
+--- stderr: ov_eval
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at CMakeLists.txt:15 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (include)
+
+
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultSimulation.h:45,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultSimulation.cpp:22:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /usr/include/eigen3/Eigen/Core:294,
+                 from /usr/include/eigen3/Eigen/Dense:1,
+                 from /usr/include/eigen3/Eigen/Eigen:1,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.h:25,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp:22:
+In copy constructor ‘Eigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::PlainObjectBase<Derived>&) [with Derived = Eigen::Matrix<double, 3, 1>]’,
+    inlined from ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]’ at /usr/include/eigen3/Eigen/src/Core/Matrix.h:414:65,
+    inlined from ‘static void ov_eval::AlignUtils::align_umeyama(const std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<Eigen::Matrix<double, 3, 1> >&, Eigen::Matrix<double, 3, 3>&, Eigen::Matrix<double, 3, 1>&, double&, bool, bool)’ at /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp:59:58:
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17: warning: ‘*(const double*)((char*)&svd + offsetof(Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 2>,Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 2>::<unnamed>.Eigen::SVDBase<Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 2> >::m_singularValues.Eigen::Matrix<double, 3, 1, 0, 3, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 1, 0, 3, 1> >::m_storage.Eigen::DenseStorage<double, 3, 3, 1, 0>::m_data.Eigen::internal::plain_array<double, 3, 0, 0>::array[2]))’ may be used uninitialized [-Wmaybe-uninitialized]
+  512 |       : Base(), m_storage(other.m_storage) { }
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp: In static member function ‘static void ov_eval::AlignUtils::align_umeyama(const std::vector<Eigen::Matrix<double, 3, 1> >&, const std::vector<Eigen::Matrix<double, 3, 1> >&, Eigen::Matrix<double, 3, 3>&, Eigen::Matrix<double, 3, 1>&, double&, bool, bool)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/alignment/AlignUtils.cpp:56:49: note: ‘svd’ declared here
+   56 |   Eigen::JacobiSVD<Eigen::Matrix<double, 3, 3>> svd(C, Eigen::ComputeFullV | Eigen::ComputeFullU);
+      |                                                 ^~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp: In member function ‘void ov_eval::ResultTrajectory::calculate_error(ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&, ov_eval::Statistics&)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:373:63: warning: ‘cov_global.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ may be used uninitialized [-Wmaybe-uninitialized]
+  373 |       oriz.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_global(2, 2)));
+      |                                                      ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:314:21: note: ‘cov_global.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ was declared here
+  314 |     Eigen::Matrix3d cov_global;
+      |                     ^~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:384:63: warning: ‘*(double*)((char*)&cov_rpy + offsetof(Eigen::Matrix3d, Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::MatrixBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 3>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 0>::<unnamed>))’ may be used uninitialized [-Wmaybe-uninitialized]
+  384 |       roll.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_rpy(0, 0)));
+      |                                                      ~~~~~~~~~^~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:342:21: note: ‘*(double*)((char*)&cov_rpy + offsetof(Eigen::Matrix3d, Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::MatrixBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 3>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>::<unnamed>.Eigen::DenseCoeffsBase<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 0>::<unnamed>))’ was declared here
+  342 |     Eigen::Matrix3d cov_rpy;
+      |                     ^~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:385:64: warning: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[4]’ may be used uninitialized [-Wmaybe-uninitialized]
+  385 |       pitch.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_rpy(1, 1)));
+      |                                                       ~~~~~~~~~^~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:342:21: note: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[4]’ was declared here
+  342 |     Eigen::Matrix3d cov_rpy;
+      |                     ^~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:386:62: warning: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ may be used uninitialized [-Wmaybe-uninitialized]
+  386 |       yaw.values_bound.push_back(3 * 180.0 / M_PI * std::sqrt(cov_rpy(2, 2)));
+      |                                                     ~~~~~~~~~^~~~~~~~~~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultTrajectory.cpp:342:21: note: ‘cov_rpy.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8]’ was declared here
+  342 |     Eigen::Matrix3d cov_rpy;
+      |                     ^~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_flamegraph.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_percentages.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_comparison.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/timing_histogram.cpp:40:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/calc/ResultSimulation.h:45,
+                 from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_simulation.cpp:22:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/plot_trajectories.cpp:42:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_singlerun.cpp:35:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_dataset.cpp:37:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+In file included from /home/sudha/openvins_ws_jazzy/src/open_vins/ov_eval/src/error_comparison.cpp:38:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h: In constructor ‘matplotlibcpp::detail::_interpreter::_interpreter()’:
+/home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:132:22: warning: ‘void Py_SetProgramName(const wchar_t*)’ is deprecated [-Wdeprecated-declarations]
+  132 |     Py_SetProgramName(name);
+      |     ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/python3.12/Python.h:94,
+                 from /home/sudha/openvins_ws_jazzy/install/ov_core/include/plot/matplotlibcpp.h:13:
+/usr/include/python3.12/pylifecycle.h:37:38: note: declared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) Py_SetProgramName(const wchar_t *);
+      |                                      ^~~~~~~~~~~~~~~~~
+---
+Finished <<< ov_eval [19.1s]
+[ 62%] Linking CXX shared library libov_init_lib.so
+[ 62%] Built target ov_init_lib
+[ 75%] Building CXX object CMakeFiles/test_dynamic_mle.dir/src/test_dynamic_mle.cpp.o
+[ 75%] Building CXX object CMakeFiles/test_simulation.dir/src/test_simulation.cpp.o
+[ 81%] Building CXX object CMakeFiles/test_dynamic_init.dir/src/test_dynamic_init.cpp.o
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_mle.cpp: In function ‘int main(int, char**)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_mle.cpp:207:16: warning: unused variable ‘success’ [-Wunused-variable]
+  207 |           bool success = sim.get_state(time1, gt_imustate);
+      |                ^~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_init.cpp: In function ‘int main(int, char**)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_init.cpp:191:14: warning: unused variable ‘success1’ [-Wunused-variable]
+  191 |         bool success1 = sim.get_state(timestamp + sim.get_true_parameters().calib_camimu_dt, gt_imu);
+      |              ^~~~~~~~
+[ 87%] Linking CXX executable test_simulation
+[Processing: ov_init]
+[ 87%] Built target test_simulation
+[ 93%] Linking CXX executable test_dynamic_mle
+[ 93%] Built target test_dynamic_mle
+[100%] Linking CXX executable test_dynamic_init
+[100%] Built target test_dynamic_init
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/lib/libov_init_lib.so
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_init/lib/libov_init_lib.so" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/dynamic
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/dynamic/DynamicInitializer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/utils
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/utils/helper.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/sim
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/sim/SimulatorInit.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/ceres
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/ceres/Factor_GenericPrior.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/ceres/Factor_ImageReprojCalib.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/ceres/Factor_ImuCPIv1.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/ceres/State_JPLQuatLocal.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/static
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/static/StaticInitializer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/init
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/init/InertialInitializerOptions.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/include/init/InertialInitializer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/environment/library_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/environment/library_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/lib/ov_init/test_simulation
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_init/lib/ov_init/test_simulation" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/lib/ov_init/test_dynamic_mle
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_init/lib/ov_init/test_dynamic_mle" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/lib/ov_init/test_dynamic_init
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_init/lib/ov_init/test_dynamic_init" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/launch/
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/launch//dynamic.launch
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/launch//display.rviz
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/launch//mle.launch
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ament_index/resource_index/package_run_dependencies/ov_init
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ament_index/resource_index/parent_prefix_path/ov_init
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ament_index/resource_index/packages/ov_init
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/cmake/ov_initConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/cmake/ov_initConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/package.xml
+--- stderr: ov_init
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at CMakeLists.txt:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:55 (include)
+
+
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_mle.cpp: In function ‘int main(int, char**)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_mle.cpp:207:16: warning: unused variable ‘success’ [-Wunused-variable]
+  207 |           bool success = sim.get_state(time1, gt_imustate);
+      |                ^~~~~~~
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_init.cpp: In function ‘int main(int, char**)’:
+/home/sudha/openvins_ws_jazzy/src/open_vins/ov_init/src/test_dynamic_init.cpp:191:14: warning: unused variable ‘success1’ [-Wunused-variable]
+  191 |         bool success1 = sim.get_state(timestamp + sim.get_true_parameters().calib_camimu_dt, gt_imu);
+      |              ^~~~~~~~
+---
+Finished <<< ov_init [1min 3s]
+Starting >>> ov_msckf
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem thread date_time 
+-- Found Threads: TRUE  
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- EIGEN: 3.4.0 | OPENCV: 4.6.0 | BOOST: 1.83.0 | CERES: 2.2.0
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- ROS *2* version found, building ROS2.cmake
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (include)
+
+
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found ov_core: 2.7.0 (/home/sudha/openvins_ws_jazzy/install/ov_core/share/ov_core/cmake)
+-- Found ov_init: 2.7.0 (/home/sudha/openvins_ws_jazzy/install/ov_init/share/ov_init/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sudha/openvins_ws_jazzy/build/ov_msckf
+[ 22%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/state/State.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/state/StateHelper.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/dummy.cpp.o
+[ 22%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/state/Propagator.cpp.o
+[ 27%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o
+[ 40%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/ros/ROS2Visualizer.cpp.o
+[ 40%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/ros/ROSVisualizerHelper.cpp.o
+[ 40%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o
+[ 40%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o
+[ 50%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterHelper.cpp.o
+[ 50%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterZeroVelocity.cpp.o
+[ 54%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterMSCKF.cpp.o
+[ 59%] Building CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterSLAM.cpp.o
+[ 63%] Linking CXX shared library libov_msckf_lib.so
+[Processing: ov_msckf]
+[Processing: ov_msckf]
+[ 63%] Built target ov_msckf_lib
+[ 81%] Building CXX object CMakeFiles/test_sim_repeat.dir/src/test_sim_repeat.cpp.o
+[ 81%] Building CXX object CMakeFiles/test_sim_meas.dir/src/test_sim_meas.cpp.o
+[ 81%] Building CXX object CMakeFiles/run_simulation.dir/src/run_simulation.cpp.o
+[ 81%] Building CXX object CMakeFiles/run_subscribe_msckf.dir/src/run_subscribe_msckf.cpp.o
+[ 86%] Linking CXX executable test_sim_meas
+[ 90%] Linking CXX executable test_sim_repeat
+[ 90%] Built target test_sim_meas
+[ 90%] Built target test_sim_repeat
+[ 95%] Linking CXX executable run_subscribe_msckf
+[ 95%] Built target run_subscribe_msckf
+[100%] Linking CXX executable run_simulation
+[100%] Built target run_simulation
+-- Install configuration: "Release"
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/libov_msckf_lib.so
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/libov_msckf_lib.so" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/utils
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/utils/NoiseManager.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/sim
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/sim/Simulator.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/state
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/state/State.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/state/StateHelper.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/state/Propagator.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/state/StateOptions.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/update
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/update/UpdaterSLAM.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/update/UpdaterOptions.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/update/UpdaterZeroVelocity.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/update/UpdaterMSCKF.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/update/UpdaterHelper.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/ros
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/ros/ROS1Visualizer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/ros/ROSVisualizerHelper.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/ros/ROS2Visualizer.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/core
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/core/VioManagerOptions.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/include/core/VioManager.h
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/environment/library_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/environment/library_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/run_subscribe_msckf
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/run_subscribe_msckf" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/run_simulation
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/run_simulation" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/test_sim_meas
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/test_sim_meas" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/test_sim_repeat
+-- Set non-toolchain portion of runtime path of "/home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/test_sim_repeat" to ""
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch/
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//display_driving.rviz
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//subscribe.launch
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//simulation.launch
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//display_ros2.rviz
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//serial.launch
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//display.rviz
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/launch//subscribe.launch.py
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config/
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor_45
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor_45/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor_45/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor_45/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_aruco
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_aruco/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_aruco/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_aruco/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/mask_ironsides1.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/mask_ironsides0.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/mask_ironsides1.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_ironsides/mask_ironsides0.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_d455
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_d455/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_d455/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_d455/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_d455/launch_d455.example
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/mask_tumvi0.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/mask_tumvi1.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/mask_tumvi0.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//tum_vi/mask_tumvi1.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/mask_t265_cam0.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/launch_t265.example
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/mask_t265_cam1.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/mask_t265_cam1.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rs_t265/mask_t265_cam0.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist_vio
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist_vio/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist_vio/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//kaist_vio/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/mask_uzhfpv_outdoor_mask0.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/mask_uzhfpv_outdoor_mask1.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/mask_uzhfpv_outdoor_mask0.png
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/mask_uzhfpv_outdoor_mask1.xcf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_outdoor/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_sim
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_sim/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_sim/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_sim/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//euroc_mav
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//euroc_mav/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//euroc_mav/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//euroc_mav/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor_45
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor_45/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor_45/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//uzhfpv_indoor_45/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_plane
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_plane/kalibr_imu_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_plane/kalibr_imucam_chain.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/config//rpng_plane/estimator_config.yaml
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ament_index/resource_index/package_run_dependencies/ov_msckf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ament_index/resource_index/parent_prefix_path/ov_msckf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/environment/ament_prefix_path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/environment/ament_prefix_path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/environment/path.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/environment/path.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/local_setup.bash
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/local_setup.sh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/local_setup.zsh
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/local_setup.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/package.dsv
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ament_index/resource_index/packages/ov_msckf
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/cmake/ov_msckfConfig.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/cmake/ov_msckfConfig-version.cmake
+-- Installing: /home/sudha/openvins_ws_jazzy/install/ov_msckf/share/ov_msckf/package.xml
+--- stderr: ov_msckf
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at cmake/ROS2.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (include)
+
+
+---
+Finished <<< ov_msckf [1min 30s]
+
+Summary: 5 packages finished [3min 18s]
+  5 packages had stderr output: ov_core ov_data ov_eval ov_init ov_msckf
