@@ -1,0 +1,10 @@
+bag_path: /home/sudha/datasets/euroc/bags/MH_01_easy.bag
+bag_size_mb: 2673.8
+start_time_ns: 1403636578946206122
+end_time_ns: 1403636766695649189
+duration_s: 187.749
+topics:
+  /cam0/image_raw | sensor_msgs/msg/Image
+  /cam1/image_raw | sensor_msgs/msg/Image
+  /imu0 | sensor_msgs/msg/Imu
+  /leica/position | geometry_msgs/msg/PointStamped
