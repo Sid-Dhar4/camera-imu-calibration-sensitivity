@@ -5,10 +5,11 @@ perturb_type: nominal
 perturb_axis: none
 perturb_magnitude: 0
 perturb_units: none
-status: runtime_error
-failure_stage: startup_before_bag_processing
-failure_reason: boost::filesystem::create_directories invalid argument
+status: smoke_success
+failure_stage: none
+failure_reason: none
 ros2_bag: ~/datasets/euroc/ros2_bags/MH_01_easy
 openvins_workspace: ~/openvins_ws_jazzy
 config_snapshot: results/configs_used/openvins_MH01_nominal_000
-notes: node crashed before producing /tmp/ov_estimate.txt; bag playback was not useful because node had already died
+trajectory_output: results/trajectories/nominal/openvins_MH01_nominal_000/ov_estimate.txt
+notes: direct OpenVINS smoke run initialized and produced state/timing outputs

@@ -1,0 +1,49 @@
+header:
+  stamp:
+    sec: 1403636583
+    nanosec: 508555500
+  frame_id: imu4
+orientation:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+orientation_covariance:
+- 99999.9
+- 0.0
+- 0.0
+- 0.0
+- 99999.9
+- 0.0
+- 0.0
+- 0.0
+- 99999.9
+angular_velocity:
+  x: -0.04956735075663895
+  y: -0.13823007675795088
+  z: -0.0614355896702004
+angular_velocity_covariance:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+linear_acceleration:
+  x: 8.768779541666666
+  y: 0.34323275000000003
+  z: -3.334261
+linear_acceleration_covariance:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+---

@@ -1,0 +1,3 @@
+[INFO] [1780059331.533399977] [rosbag2_storage]: Opened database '/home/sudha/datasets/euroc/ros2_bags/MH_01_easy/MH_01_easy.db3' for READ_ONLY.
+[INFO] [1780059331.533466473] [rosbag2_player]: Set rate to 1
+[INFO] [1780059331.548127663] [rosbag2_player]: Playback until timestamp: -1
