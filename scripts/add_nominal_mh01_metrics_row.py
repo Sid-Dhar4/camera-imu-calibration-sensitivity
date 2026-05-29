@@ -2,7 +2,11 @@
 import csv
 import json
 import re
+import sys
 from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from metrics.schema import REQUIRED_COLUMNS
 
