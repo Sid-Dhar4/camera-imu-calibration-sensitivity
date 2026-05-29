@@ -27,7 +27,7 @@ def parse_bag_duration(path: Path) -> float | None:
     if not path.exists():
         return None
     text = path.read_text()
-    match = re.search(r"Duration:\\s+([0-9.]+)s", text)
+    match = re.search(r"Duration:\s+([0-9.]+)s", text)
     if not match:
         return None
     return float(match.group(1))

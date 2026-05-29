@@ -14,6 +14,6 @@ rpe_trans_rmse_m: 0.048954
 rpe_rot_rmse_deg: 0.268658
 runtime_s: 
 estimated_duration_s: 139.101960
-completion_rate: 
+completion_rate: 0.740891
 failure_reason: 
 notes: Full nominal MH01 OpenVINS run; SE3 alignment no scale; RPE delta 20 frames.
