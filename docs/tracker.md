@@ -3,16 +3,17 @@
 ## Current milestone
 - Milestone number: 4
 - Goal: Create or acquire a working OpenVINS ROS 2 runtime for nominal MH_01_easy.
-- Status: not_started
-- Blockers: OpenVINS source/runtime not built yet.
-- Next command to run: inspect OpenVINS Jazzy branch/build path.
+- Status: discovery_complete_pending_review
+- Blockers: Need to inspect OpenVINS branch/package/dependency logs before build.
+- Next command to run: decide build path from Batch 4A-4D output.
 
 ## Completed milestones
 | Milestone | Date | Artifact | Commit |
 |---|---|---|---|
 | 1 | 2026-05-28 | Repo skeleton, metrics schema, initial tests, tracker | 4f998e9, a431b17 |
 | 2 | 2026-05-28 | Local Python/evo/rosbags tooling and dataset discovery | 29ae6f5, bafe8b9 |
-| 3 | 2026-05-28 | MH_01_easy ROS 2 bag conversion script and verification log | pending |
+| 3 | 2026-05-28 | MH_01_easy ROS 2 bag conversion script and verification log | 843ed21 |
+| 4 | 2026-05-28 | OpenVINS source/runtime discovery logs | pending |
 
 ## Run tracker
 | run_id | sequence | perturbation | status | output path | notes |
@@ -23,9 +24,9 @@
 |---|---:|---:|---:|---:|---|
 
 ## Open questions
-- Should OpenVINS be built from the ROS 2 Jazzy PR branch or another stable branch?
-- What exact OpenVINS command will produce a trajectory file for evo?
-- Are extra dependencies needed for OpenVINS on Ubuntu 24.04/Jazzy?
+- Can OpenVINS build cleanly on Ubuntu 24.04 / ROS 2 Jazzy from the selected branch?
+- What exact OpenVINS launch command should run MH_01_easy?
+- Where does OpenVINS save the estimated trajectory?
 
 ## Decisions made
 - Project is a separate repo.
@@ -37,6 +38,7 @@
 - Python cache files are ignored and removed from Git tracking.
 - Host Python tools live in .venv.
 - MH_01_easy is converted first; MH_03_medium waits until nominal MH_01 works.
+- OpenVINS source lives outside the benchmark repo under ~/openvins_ws_jazzy/src/open_vins.
 
 ## Failure log
 | Date | Failure | Cause | Fix | Lesson |

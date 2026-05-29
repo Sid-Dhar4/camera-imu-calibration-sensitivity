@@ -1,0 +1,5 @@
+ov_core	src/open_vins/ov_core	(ros.ament_cmake)
+ov_data	src/open_vins/ov_data	(ros.ament_cmake)
+ov_eval	src/open_vins/ov_eval	(ros.ament_cmake)
+ov_init	src/open_vins/ov_init	(ros.ament_cmake)
+ov_msckf	src/open_vins/ov_msckf	(ros.ament_cmake)

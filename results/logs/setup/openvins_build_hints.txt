@@ -1,0 +1,49 @@
+ov_core/CMakeLists.txt:find_package(catkin QUIET COMPONENTS roscpp)
+ov_core/CMakeLists.txt:find_package(ament_cmake QUIET)
+ov_core/CMakeLists.txt:if (catkin_FOUND AND ENABLE_ROS)
+ov_core/CMakeLists.txt:elseif (ament_cmake_FOUND AND ENABLE_ROS)
+ov_core/package.xml:    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+ov_core/package.xml:    <depend condition="$ROS_VERSION == 1">roscpp</depend>
+ov_core/package.xml:    <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+ov_core/package.xml:    <depend condition="$ROS_VERSION == 2">rclcpp</depend>
+ov_core/package.xml:        <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+ov_core/package.xml:        <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
+ov_data/CMakeLists.txt:find_package(catkin QUIET COMPONENTS roscpp)
+ov_data/CMakeLists.txt:find_package(ament_cmake QUIET)
+ov_data/CMakeLists.txt:if (catkin_FOUND)
+ov_data/CMakeLists.txt:    catkin_package()
+ov_data/CMakeLists.txt:elseif (ament_cmake_FOUND)
+ov_data/package.xml:    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+ov_data/package.xml:    <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+ov_data/package.xml:        <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+ov_data/package.xml:        <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
+ov_msckf/CMakeLists.txt:find_package(catkin QUIET COMPONENTS roscpp)
+ov_msckf/CMakeLists.txt:find_package(ament_cmake QUIET)
+ov_msckf/CMakeLists.txt:if (catkin_FOUND AND ENABLE_ROS)
+ov_msckf/CMakeLists.txt:elseif (ament_cmake_FOUND AND ENABLE_ROS)
+ov_msckf/package.xml:    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+ov_msckf/package.xml:    <depend condition="$ROS_VERSION == 1">roscpp</depend>
+ov_msckf/package.xml:    <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+ov_msckf/package.xml:    <depend condition="$ROS_VERSION == 2">rclcpp</depend>
+ov_msckf/package.xml:        <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+ov_msckf/package.xml:        <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
+ov_init/CMakeLists.txt:find_package(catkin QUIET COMPONENTS roscpp)
+ov_init/CMakeLists.txt:find_package(ament_cmake QUIET)
+ov_init/CMakeLists.txt:if (catkin_FOUND AND ENABLE_ROS)
+ov_init/CMakeLists.txt:elseif (ament_cmake_FOUND AND ENABLE_ROS)
+ov_init/package.xml:    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+ov_init/package.xml:    <depend condition="$ROS_VERSION == 1">roscpp</depend>
+ov_init/package.xml:    <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+ov_init/package.xml:    <depend condition="$ROS_VERSION == 2">rclcpp</depend>
+ov_init/package.xml:        <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+ov_init/package.xml:        <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
+ov_eval/CMakeLists.txt:find_package(catkin QUIET COMPONENTS roscpp)
+ov_eval/CMakeLists.txt:find_package(ament_cmake QUIET)
+ov_eval/CMakeLists.txt:if (catkin_FOUND AND ENABLE_ROS)
+ov_eval/CMakeLists.txt:elseif (ament_cmake_FOUND AND ENABLE_ROS)
+ov_eval/package.xml:    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+ov_eval/package.xml:    <depend condition="$ROS_VERSION == 1">roscpp</depend>
+ov_eval/package.xml:    <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+ov_eval/package.xml:    <depend condition="$ROS_VERSION == 2">rclcpp</depend>
+ov_eval/package.xml:        <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+ov_eval/package.xml:        <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
