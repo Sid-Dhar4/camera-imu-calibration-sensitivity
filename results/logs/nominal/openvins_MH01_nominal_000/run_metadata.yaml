@@ -5,8 +5,10 @@ perturb_type: nominal
 perturb_axis: none
 perturb_magnitude: 0
 perturb_units: none
-status: prepared_not_run
+status: runtime_error
+failure_stage: startup_before_bag_processing
+failure_reason: boost::filesystem::create_directories invalid argument
 ros2_bag: ~/datasets/euroc/ros2_bags/MH_01_easy
 openvins_workspace: ~/openvins_ws_jazzy
 config_snapshot: results/configs_used/openvins_MH01_nominal_000
-notes: nominal config copied before first run
+notes: node crashed before producing /tmp/ov_estimate.txt; bag playback was not useful because node had already died

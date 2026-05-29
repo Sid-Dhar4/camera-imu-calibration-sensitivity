@@ -1,0 +1,7 @@
+1:%YAML:1.0 # need to specify the file type at the top!
+65:record_timing_information: false # if we want to record timing information of the method
+66:record_timing_filepath: "/tmp/traj_timing.txt" # https://docs.openvins.com/eval-timing.html#eval-ov-timing-flame
+70:save_total_state: false
+71:filepath_est: "/tmp/ov_estimate.txt"
+72:filepath_std: "/tmp/ov_estimate_std.txt"
+73:filepath_gt: "/tmp/ov_groundtruth.txt"

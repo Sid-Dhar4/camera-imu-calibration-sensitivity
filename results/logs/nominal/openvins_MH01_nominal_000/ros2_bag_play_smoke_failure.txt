@@ -1,0 +1,8 @@
+[INFO] [1780025572.326419409] [rosbag2_storage]: Opened database '/home/sudha/datasets/euroc/ros2_bags/MH_01_easy/MH_01_easy.db3' for READ_ONLY.
+[INFO] [1780025572.326465714] [rosbag2_player]: Set rate to 1
+[INFO] [1780025572.333813986] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1780025572.333836545] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1780025572.333844856] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1780025572.333856730] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1780025572.333867415] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1780025572.335270818] [rosbag2_player]: Playback until timestamp: -1

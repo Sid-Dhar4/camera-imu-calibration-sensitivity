@@ -1,0 +1,12 @@
+[INFO] [launch]: All log files can be found below /home/sudha/.ros/log/2026-05-28-23-32-31-928080-sudha-212137
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [run_subscribe_msckf-1]: process started with pid [212141]
+[run_subscribe_msckf-1] [32moverriding node [1m[32mverbosity[0m[32m with value from ROS!
+[run_subscribe_msckf-1] [0mSetting printing level to: INFO
+[run_subscribe_msckf-1] [32moverriding node [1m[32mmax_cameras[0m[32m with value from ROS!
+[run_subscribe_msckf-1] [0m[32moverriding node [1m[32mmax_cameras[0m[32m with value from ROS!
+[run_subscribe_msckf-1] [0m[32moverriding node [1m[32muse_stereo[0m[32m with value from ROS!
+[run_subscribe_msckf-1] [0m[32moverriding node [1m[32muse_stereo[0m[32m with value from ROS!
+[run_subscribe_msckf-1] terminate called after throwing an instance of 'boost::filesystem::filesystem_error'
+[run_subscribe_msckf-1]   what():  boost::filesystem::create_directories: Invalid argument [generic:22]
+[ERROR] [run_subscribe_msckf-1]: process has died [pid 212141, exit code -6, cmd '/home/sudha/openvins_ws_jazzy/install/ov_msckf/lib/ov_msckf/run_subscribe_msckf --ros-args -r __ns:=/ov_msckf --params-file /tmp/launch_params_le20meq8 --params-file /tmp/launch_params_ah5_5ab2 --params-file /tmp/launch_params_lrx43azk --params-file /tmp/launch_params_722sxbnu --params-file /tmp/launch_params_oksyw_ex'].
