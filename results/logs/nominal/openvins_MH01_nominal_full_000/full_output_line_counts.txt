@@ -1,0 +1,3 @@
+results/trajectories/nominal/openvins_MH01_nominal_full_000/ov_estimate.txt lines: 2784
+results/trajectories/nominal/openvins_MH01_nominal_full_000/ov_estimate_std.txt lines: 2784
+results/trajectories/nominal/openvins_MH01_nominal_full_000/traj_timing.txt lines: 2784

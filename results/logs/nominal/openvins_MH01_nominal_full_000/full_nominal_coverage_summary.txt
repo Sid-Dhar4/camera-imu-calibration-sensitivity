@@ -1,0 +1,5 @@
+trajectory_rows: 2783
+first_timestamp_s: 1403636624.661720
+last_timestamp_s: 1403636763.763680
+estimated_duration_s: 139.101960
+note: duration is post-initialization estimate coverage, not full bag duration
