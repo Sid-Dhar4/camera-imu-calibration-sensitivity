@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Local data and large files
+data/
+datasets/
+*.bag
+*.db3
+*.mcap
+*.zip
+*.tar
+*.tar.gz
+
+# Generated configs and results
+configs/generated/**/*.yaml
+results/trajectories/**/*.txt
+results/trajectories/**/*.csv
+results/trajectories/**/*.tum
+results/evo/**/*.zip
+results/evo/**/*.json
+results/evo/**/*.txt
+results/logs/**/*.log
+results/configs_used/**/*.yaml
+results/plots/**/*.png
+results/plots/**/*.pdf
+
+# Keep tracked placeholders and metrics schema target
+!**/.gitkeep
+!results/metrics.csv
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

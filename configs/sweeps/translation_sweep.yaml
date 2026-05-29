@@ -1,0 +1,9 @@
+sweep_name: translation_y_mvp
+backend: openvins
+perturb_type: translation
+axis_frame: imu
+axes: [y]
+magnitudes_cm: [0, 0.5, 1, 2, 5]
+apply_to_cameras: [cam0, cam1]
+preserve_stereo_baseline: true
+notes: "Apply same camera-rig translation perturbation to both cameras."

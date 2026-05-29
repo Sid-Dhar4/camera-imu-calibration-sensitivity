@@ -1,0 +1,9 @@
+sweep_name: rotation_z_mvp
+backend: openvins
+perturb_type: rotation
+axis_frame: imu
+axes: [z]
+magnitudes_deg: [0, 0.5, 1, 2, 5]
+apply_to_cameras: [cam0, cam1]
+convention: left_multiply_R_CtoI
+notes: "Initial MVP sweep. One-axis only. Do not claim full 3D sensitivity."

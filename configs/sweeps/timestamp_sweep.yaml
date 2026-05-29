@@ -1,0 +1,6 @@
+sweep_name: timestamp_offset_later
+backend: openvins
+enabled_in_mvp: false
+perturb_type: timestamp
+magnitudes_ms: [0, 2, 5, 10, 20]
+notes: "Deferred until rotation and translation sensitivity are working."
