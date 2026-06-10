@@ -49,3 +49,15 @@ def rotation_angle_between(R_a: np.ndarray, R_b: np.ndarray) -> float:
     cos_angle = (np.trace(R) - 1.0) / 2.0
     cos_angle = max(-1.0, min(1.0, float(cos_angle)))
     return math.degrees(math.acos(cos_angle))
+
+
+def perturb_T_imu_cam_translation_imu_frame(T_imu_cam: np.ndarray, axis: str, magnitude_m: float) -> np.ndarray:
+    if T_imu_cam.shape != (4, 4):
+        raise ValueError(f"Expected 4x4 transform, got {T_imu_cam.shape}")
+    axis_to_index = {"x": 0, "y": 1, "z": 2}
+    if axis not in axis_to_index:
+        raise ValueError(f"Unsupported axis: {axis}")
+
+    T_new = T_imu_cam.copy()
+    T_new[axis_to_index[axis], 3] += magnitude_m
+    return T_new

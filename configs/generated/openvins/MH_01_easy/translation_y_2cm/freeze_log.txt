@@ -1,0 +1,5 @@
+input: configs/nominal/openvins/euroc_mav/estimator_config.yaml
+output: configs/generated/openvins/MH_01_easy/translation_y_2cm/estimator_config_frozen.yaml
+calib_cam_extrinsics: false
+calib_cam_intrinsics: false
+calib_cam_timeoffset: false
