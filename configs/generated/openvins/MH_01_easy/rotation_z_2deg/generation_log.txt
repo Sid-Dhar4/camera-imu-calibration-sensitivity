@@ -1,0 +1,6 @@
+sequence: MH_01_easy
+axis: z
+angle_deg: 2.0
+matrices_perturbed: 2
+source_imucam: configs/nominal/openvins/euroc_mav/kalibr_imucam_chain.yaml
+output_imucam: configs/generated/openvins/MH_01_easy/rotation_z_2deg/kalibr_imucam_chain.yaml
