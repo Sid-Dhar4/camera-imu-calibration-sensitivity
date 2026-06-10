@@ -100,6 +100,10 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 
 ![MH03 rotation vs translation ATE RMSE](results/plots/mh03_rotation_vs_translation_ate_rmse.png)
 
+### MH_03_medium rotation-z 5deg failure diagnosis
+
+The `MH_03_medium` 5 degree z-axis perturbation produced a trajectory with the same row count and duration as nominal, but its estimated path length expanded from about `128.76 m` to `3154.53 m`. See `reports/mh03_rot_z_5deg_failure_diagnosis.md`.
+
 ### Aligned trajectory comparison
 
 Ground truth, nominal OpenVINS, and 5 degree perturbation are time-associated and SE(3)-aligned before plotting.
@@ -215,6 +219,8 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Multi-sequence report | `reports/mh01_mh03_rotation_z_5deg_summary.md` |
 | MH03 rotation-z sensitivity report | `reports/mh03_rotation_z_sensitivity.md` |
 | MH03 rotation-vs-translation report | `reports/mh03_rotation_vs_translation_error_budget.md` |
+| MH03 rotation-z 5deg failure diagnosis | `reports/mh03_rot_z_5deg_failure_diagnosis.md` |
+| MH03 rotation-z 5deg failure diagnosis table | `results/tables/mh03_rot_z_5deg_failure_diagnosis.csv` |
 | MH01 trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
 | MH03 trajectory overlay | `results/plots/mh03_gt_nominal_rot5_aligned_xy.png` |
 
