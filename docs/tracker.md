@@ -62,3 +62,24 @@
 | 2026-05-29 | evo_rpe failed with delta_unit=s | This evo version accepts f/d/r/m, not seconds | Used delta 20 frames with delta_unit f | Verify CLI options against installed tool version |
 | 2026-05-29 | metrics row updater committed after failed run | Script had invalid escaped f-string syntax and metrics.csv still had only header | Replaced updater and added strict data-row verification | Schema checks verify structure, not whether rows exist |
 | 2026-05-29 | metrics row updater failed again | Script could not import metrics.schema because src was not on sys.path | Inserted repo/src into sys.path and verified data_rows == 1 | Direct scripts need their own import path setup |
+
+## Reassessment checkpoint: first measured perturbation
+
+Status: first calibration-sensitivity result measured.
+
+Completed:
+- Nominal MH_01_easy OpenVINS run.
+- Rotation z +5 deg OpenVINS run with camera calibration flags frozen.
+- evo ATE/RPE evaluation for both runs.
+- results/metrics.csv now contains nominal and rotation_z_5deg rows.
+- First comparison report generated.
+
+Measured comparison:
+- Nominal ATE RMSE: 0.139204 m
+- Rotation z +5 deg ATE RMSE: 2.064969 m
+- ATE degradation: 14.834x
+
+Next milestone:
+- Implement automated rotation z sweep for 0.5, 1, and 2 degrees.
+- Avoid manual one-off scripts for every perturbation.
+- Generate plots after at least 5 sweep points exist.

@@ -1,0 +1,4 @@
+metric,nominal,rotation_z_5deg,ratio
+ate_rmse_m,0.139204,2.064969,14.834
+rpe_trans_rmse_m,0.048954,0.194584,3.975
+rpe_rot_rmse_deg,0.268658,0.343487,1.279
