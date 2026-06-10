@@ -96,6 +96,10 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 
 ![MH03 rotation-z sensitivity ATE RMSE](results/plots/mh03_rotation_z_sensitivity_ate_rmse.png)
 
+### MH_03_medium rotation-vs-translation error budget
+
+![MH03 rotation vs translation ATE RMSE](results/plots/mh03_rotation_vs_translation_ate_rmse.png)
+
 ### Aligned trajectory comparison
 
 Ground truth, nominal OpenVINS, and 5 degree perturbation are time-associated and SE(3)-aligned before plotting.
@@ -202,12 +206,15 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Rotation-vs-translation plot | `results/plots/mh01_rotation_vs_translation_ate_rmse.png` |
 | Multi-sequence rotation plot | `results/plots/mh01_mh03_rotation_z_5deg_ate_rmse.png` |
 | MH03 rotation-z sensitivity plot | `results/plots/mh03_rotation_z_sensitivity_ate_rmse.png` |
+| MH03 rotation-vs-translation plot | `results/plots/mh03_rotation_vs_translation_ate_rmse.png` |
 | Error-budget table | `results/tables/mh01_rotation_vs_translation_error_budget.csv` |
 | Multi-sequence table | `results/tables/mh01_mh03_rotation_z_5deg_summary.csv` |
 | MH03 rotation-z sensitivity table | `results/tables/mh03_rotation_z_sensitivity.csv` |
+| MH03 rotation-vs-translation table | `results/tables/mh03_rotation_vs_translation_error_budget.csv` |
 | Error-budget report | `reports/mh01_rotation_vs_translation_error_budget.md` |
 | Multi-sequence report | `reports/mh01_mh03_rotation_z_5deg_summary.md` |
 | MH03 rotation-z sensitivity report | `reports/mh03_rotation_z_sensitivity.md` |
+| MH03 rotation-vs-translation report | `reports/mh03_rotation_vs_translation_error_budget.md` |
 | MH01 trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
 | MH03 trajectory overlay | `results/plots/mh03_gt_nominal_rot5_aligned_xy.png` |
 

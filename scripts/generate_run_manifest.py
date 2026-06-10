@@ -46,6 +46,9 @@ def included_reports(row: dict) -> str:
     if seq == "MH_03_medium" and (ptype == "nominal" or (ptype == "rotation" and axis == "z")):
         reports.append("reports/mh03_rotation_z_sensitivity.md")
 
+    if seq == "MH_03_medium" and (ptype == "nominal" or (ptype == "rotation" and axis == "z") or (ptype == "translation" and axis == "y" and mag == "5.0")):
+        reports.append("reports/mh03_rotation_vs_translation_error_budget.md")
+
     if (seq == "MH_01_easy" and (ptype == "nominal" or (ptype == "rotation" and axis == "z" and mag == "5.0"))) or (seq == "MH_03_medium" and (ptype == "nominal" or (ptype == "rotation" and axis == "z" and mag == "5.0"))):
         reports.append("reports/mh01_mh03_rotation_z_5deg_summary.md")
 

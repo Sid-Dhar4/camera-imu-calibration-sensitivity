@@ -18,6 +18,9 @@ python scripts/summarize_multisequence_rot5.py
 echo "== Regenerate MH03 rotation-z sensitivity summary =="
 python scripts/summarize_mh03_rotation_z_sensitivity.py
 
+echo "== Regenerate MH03 rotation-vs-translation error budget =="
+python scripts/summarize_mh03_rotation_vs_translation.py
+
 echo "== Regenerate MH01 aligned trajectory plots =="
 python scripts/plot_aligned_tum_trajectories.py \
   --groundtruth results/trajectories/groundtruth/MH_01_easy_gt.tum \
