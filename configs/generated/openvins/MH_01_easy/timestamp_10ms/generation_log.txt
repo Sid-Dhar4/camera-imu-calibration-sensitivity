@@ -1,1 +1,1 @@
-sequence: MH_01_easy\nperturb_type: timestamp\nmagnitude_ms: 10.0\nmagnitude_s: 0.010000000\ntime_offset_fields_perturbed: 1\nsource_dir: configs/nominal/openvins/euroc_mav\noutput_dir: configs/generated/openvins/MH_01_easy/timestamp_10ms\n
+sequence: MH_01_easy\nperturb_type: timestamp\nmagnitude_ms: 10.0\nmagnitude_s: 0.010000000\ntime_offset_fields_perturbed: 1\nsource_dir: configs/nominal/openvins/euroc_mav\noutput_dir: configs/generated/openvins/MH_01_easy/timestamp_10ms

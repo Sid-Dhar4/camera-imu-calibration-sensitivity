@@ -27,7 +27,7 @@ def replace_time_offset(text: str, seconds: float) -> tuple[str, int]:
             out.append(line)
     if count == 0:
         raise ValueError("no time_offset field found")
-    return "\\n".join(out) + "\\n", count
+    return "\n".join(out) + "\n", count
 
 
 def freeze_estimator_config(text: str) -> str:
@@ -65,7 +65,7 @@ def generate_one(sequence: str, magnitude_ms: float, source_dir: Path, output_ro
         f"time_offset_fields_perturbed: {count}",
         f"source_dir: {source_dir}",
         f"output_dir: {out_dir}",
-    ]) + "\\n")
+    ]) + "\n")
 
     (out_dir / "freeze_log.txt").write_text("\\n".join([
         f"input: {source_dir / 'estimator_config.yaml'}",
@@ -73,7 +73,7 @@ def generate_one(sequence: str, magnitude_ms: float, source_dir: Path, output_ro
         "calib_cam_extrinsics: false",
         "calib_cam_intrinsics: false",
         "calib_cam_timeoffset: false",
-    ]) + "\\n")
+    ]) + "\n")
 
     return out_dir
 
