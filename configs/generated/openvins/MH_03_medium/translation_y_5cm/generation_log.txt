@@ -1,0 +1,7 @@
+sequence: MH_03_medium
+axis: y
+magnitude_cm: 5.0
+magnitude_m: 0.05
+matrices_perturbed: 2
+source_imucam: configs/nominal/openvins/euroc_mav/kalibr_imucam_chain.yaml
+output_imucam: configs/generated/openvins/MH_03_medium/translation_y_5cm/kalibr_imucam_chain.yaml
