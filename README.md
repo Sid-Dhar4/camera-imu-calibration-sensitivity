@@ -28,13 +28,14 @@ nominal config
 | Estimator | OpenVINS |
 | Evaluation | evo ATE/RPE |
 | Alignment | SE(3), no scale correction |
-| Perturbation | camera-IMU z-axis rotation |
-| Magnitudes | 0, 0.5, 1, 2, 5 degrees |
+| Perturbations | camera-IMU z-axis rotation; camera-IMU y-axis translation |
+| Rotation magnitudes | 0, 0.5, 1, 2, 5 degrees |
+| Translation magnitudes | 1, 2, 5 cm |
 | Calibration policy | camera extrinsics, intrinsics, and camera-IMU time offset frozen |
 
 ## Key result
 
-A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase.
+A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on this sequence.
 
 | Rotation z perturbation | ATE RMSE (m) | RPE trans RMSE (m) | RPE rot RMSE (deg) |
 |---:|---:|---:|---:|
@@ -43,6 +44,14 @@ A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.13
 | 1.0 deg | 0.117957 | 0.033253 | 0.260834 |
 | 2.0 deg | 0.188732 | 0.042565 | 0.237368 |
 | 5.0 deg | 2.064969 | 0.194584 | 0.343487 |
+
+Translation-y results:
+
+| Translation y perturbation | ATE RMSE (m) | RPE trans RMSE (m) | RPE rot RMSE (deg) |
+|---:|---:|---:|---:|
+| 1.0 cm | 0.100477 | 0.003801 | 0.047589 |
+| 2.0 cm | 0.073369 | 0.002520 | 0.040947 |
+| 5.0 cm | 0.095484 | 0.003577 | 0.042328 |
 
 Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequence. The 5 degree perturbation shows a clear accuracy collapse. Small perturbations appearing slightly better than nominal should not be interpreted as improved calibration; they may reflect estimator variance, alignment effects, or model mismatch.
 
@@ -55,6 +64,10 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 ### RPE translation degradation
 
 ![RPE translation RMSE vs rotation perturbation](results/plots/mh01_rotation_z_rpe_trans_rmse.png)
+
+### Rotation-vs-translation error budget
+
+![Rotation vs translation ATE RMSE](results/plots/mh01_rotation_vs_translation_ate_rmse.png)
 
 ### Aligned trajectory comparison
 
@@ -142,6 +155,9 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Rotation sweep report | `reports/mh01_rotation_z_sweep.md` |
 | Trajectory visualization report | `reports/mh01_trajectory_visualization.md` |
 | ATE plot | `results/plots/mh01_rotation_z_ate_rmse.png` |
+| Rotation-vs-translation plot | `results/plots/mh01_rotation_vs_translation_ate_rmse.png` |
+| Error-budget table | `results/tables/mh01_rotation_vs_translation_error_budget.csv` |
+| Error-budget report | `reports/mh01_rotation_vs_translation_error_budget.md` |
 | Trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
 
 ## Tests
@@ -164,15 +180,15 @@ Run:
 ## Limitations
 
 - Current reported sweep is for EuRoC `MH_01_easy` only.
-- Current perturbation sweep covers z-axis camera-IMU rotation only.
+- Current reported perturbations cover z-axis camera-IMU rotation and y-axis camera-IMU translation only.
 - Results should not be generalized to all axes, all trajectories, or all VIO systems.
-- Translation and timestamp perturbations are planned but not reported here.
+- Timestamp perturbation is planned but not reported here.
 - Recovery experiments are not claimed in the current result.
 - Small perturbations appearing better than nominal should not be interpreted as improved calibration.
 
 ## Planned extensions
 
-- translation perturbation sweep
+- x/y/z translation-axis comparison
 - MH_03_medium evaluation
 - x/y/z rotation-axis comparison
 - error-budget summary comparing rotation and translation sensitivity
