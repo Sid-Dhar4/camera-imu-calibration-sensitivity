@@ -1,0 +1,3 @@
+input: results/trajectories/perturbed/openvins_MH01_rot_z_1deg_full_000/ov_estimate.txt
+output: results/trajectories/perturbed/openvins_MH01_rot_z_1deg_full_000/openvins_estimate.tum
+tum_rows: 2783
