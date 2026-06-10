@@ -28,7 +28,7 @@ Current completed coverage:
 | Sequence | Nominal | Rotation-z sweep | Translation-y sweep |
 |---|---:|---:|---:|
 | MH_01_easy | yes | 0.5, 1, 2, 5 deg | 1, 2, 5 cm |
-| MH_03_medium | yes | 5 deg | not yet reported |
+| MH_03_medium | yes | 2, 5 deg | not yet reported |
 
 ## Perturbations
 
@@ -66,7 +66,7 @@ Large ATE, large RPE, or visual divergence should be interpreted as accuracy fai
 
 On MH_01_easy, a 5 degree z-axis rotation perturbation increased ATE RMSE from 0.139204 m to 2.064969 m.
 
-On MH_03_medium, the same perturbation increased ATE RMSE from 0.107259 m to 831.507723 m.
+On MH_03_medium, a 2 degree z-axis rotation perturbation increased ATE RMSE from 0.107259 m to 0.353662 m. A 5 degree perturbation increased ATE RMSE to 831.507723 m.
 
 For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm stayed near nominal ATE.
 

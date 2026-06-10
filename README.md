@@ -45,7 +45,7 @@ nominal config
 
 ## Key result
 
-A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase. On `MH_03_medium`, the same perturbation increased ATE RMSE from `0.107259 m` to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`.
+A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase. On `MH_03_medium`, a 2 degree perturbation increased ATE RMSE from `0.107259 m` to `0.353662 m`, a `3.30x` increase, while the 5 degree perturbation increased ATE RMSE to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`.
 
 | Rotation z perturbation | ATE RMSE (m) | RPE trans RMSE (m) | RPE rot RMSE (deg) |
 |---:|---:|---:|---:|
@@ -61,7 +61,8 @@ Multi-sequence rotation-z 5 degree result:
 | Sequence | Nominal ATE RMSE (m) | Rotation-z 5deg ATE RMSE (m) | Increase |
 |---|---:|---:|---:|
 | MH_01_easy | 0.139204 | 2.064969 | 14.83x |
-| MH_03_medium | 0.107259 | 831.507723 | 7752.34x |
+| MH_03_medium 2deg | 0.107259 | 0.353662 | 3.30x |
+| MH_03_medium 5deg | 0.107259 | 831.507723 | 7752.34x |
 
 Translation-y results:
 
@@ -90,6 +91,10 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 ### Rotation-vs-translation error budget
 
 ![Rotation vs translation ATE RMSE](results/plots/mh01_rotation_vs_translation_ate_rmse.png)
+
+### MH_03_medium rotation-z sensitivity
+
+![MH03 rotation-z sensitivity ATE RMSE](results/plots/mh03_rotation_z_sensitivity_ate_rmse.png)
 
 ### Aligned trajectory comparison
 
@@ -195,10 +200,13 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | ATE plot | `results/plots/mh01_rotation_z_ate_rmse.png` |
 | Rotation-vs-translation plot | `results/plots/mh01_rotation_vs_translation_ate_rmse.png` |
 | Multi-sequence rotation plot | `results/plots/mh01_mh03_rotation_z_5deg_ate_rmse.png` |
+| MH03 rotation-z sensitivity plot | `results/plots/mh03_rotation_z_sensitivity_ate_rmse.png` |
 | Error-budget table | `results/tables/mh01_rotation_vs_translation_error_budget.csv` |
 | Multi-sequence table | `results/tables/mh01_mh03_rotation_z_5deg_summary.csv` |
+| MH03 rotation-z sensitivity table | `results/tables/mh03_rotation_z_sensitivity.csv` |
 | Error-budget report | `reports/mh01_rotation_vs_translation_error_budget.md` |
 | Multi-sequence report | `reports/mh01_mh03_rotation_z_5deg_summary.md` |
+| MH03 rotation-z sensitivity report | `reports/mh03_rotation_z_sensitivity.md` |
 | MH01 trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
 | MH03 trajectory overlay | `results/plots/mh03_gt_nominal_rot5_aligned_xy.png` |
 
