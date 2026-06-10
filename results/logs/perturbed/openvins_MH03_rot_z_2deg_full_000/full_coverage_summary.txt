@@ -1,0 +1,2 @@
+estimated_duration_s: 115.500000
+trajectory_rows: 2311
