@@ -32,7 +32,7 @@ Current completed coverage:
 
 ## Perturbations
 
-The current reported perturbations modify the camera-IMU extrinsic transform.
+The current reported perturbations modify either the camera-IMU extrinsic transform or the camera-IMU timestamp offset.
 
 Reported perturbation families:
 
