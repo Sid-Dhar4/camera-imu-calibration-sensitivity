@@ -1,0 +1,4 @@
+wrote results/plots/mh01_gt_nominal_rot5_aligned_xy.png
+wrote results/plots/mh01_gt_nominal_rot5_aligned_xz.png
+associated_pairs[nominal]: 2762
+associated_pairs[rotation_z_5deg]: 2762
