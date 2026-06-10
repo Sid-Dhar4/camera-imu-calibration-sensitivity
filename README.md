@@ -56,9 +56,9 @@ A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.13
 | 5.0 deg | 2.064969 | 0.194584 | 0.343487 |
 
 
-Multi-sequence rotation-z 5 degree result:
+Rotation-z sensitivity summary:
 
-| Sequence | Nominal ATE RMSE (m) | Rotation-z 5deg ATE RMSE (m) | Increase |
+| Case | Nominal ATE RMSE (m) | Perturbed ATE RMSE (m) | Increase |
 |---|---:|---:|---:|
 | MH_01_easy | 0.139204 | 2.064969 | 14.83x |
 | MH_03_medium 2deg | 0.107259 | 0.353662 | 3.30x |
@@ -229,7 +229,7 @@ Run:
 
 ## Limitations
 
-- Full rotation and translation sweeps are currently reported for `MH_01_easy`; `MH_03_medium` currently has nominal and rotation-z 5 degree results.
+- Full rotation and translation sweeps are currently reported for `MH_01_easy`; `MH_03_medium` currently has nominal, rotation-z 2 degree, and rotation-z 5 degree results.
 - Current reported perturbations cover z-axis camera-IMU rotation and y-axis camera-IMU translation only.
 - Results should not be generalized to all axes, all trajectories, or all VIO systems.
 - Timestamp perturbation is planned but not reported here.
