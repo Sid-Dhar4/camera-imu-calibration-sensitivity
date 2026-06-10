@@ -1,0 +1,3 @@
+results/trajectories/perturbed/openvins_MH01_rot_z_0p5deg_full_000/ov_estimate.txt lines: 2784
+results/trajectories/perturbed/openvins_MH01_rot_z_0p5deg_full_000/ov_estimate_std.txt lines: 2784
+results/trajectories/perturbed/openvins_MH01_rot_z_0p5deg_full_000/traj_timing.txt lines: 2784
