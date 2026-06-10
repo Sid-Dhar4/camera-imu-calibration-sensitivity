@@ -1,0 +1,19 @@
+wrote metrics row:
+run_id: openvins_MH01_rot_z_1deg_full_000
+sequence: MH_01_easy
+backend: openvins
+perturb_type: rotation
+perturb_axis: z
+perturb_magnitude: 1.0
+perturb_units: deg
+config_path: results/configs_used/openvins_MH01_rot_z_1deg_full_000/estimator_config.yaml
+trajectory_path: results/trajectories/perturbed/openvins_MH01_rot_z_1deg_full_000/openvins_estimate.tum
+status: success
+ate_rmse_m: 0.117957
+rpe_trans_rmse_m: 0.033253
+rpe_rot_rmse_deg: 0.260834
+runtime_s: 
+estimated_duration_s: 139.100000
+completion_rate: 0.740881
+failure_reason: 
+notes: Full MH01 OpenVINS run with frozen calibration and z-axis camera-IMU rotation perturbation of 1 degree.
