@@ -1,0 +1,3 @@
+run_id,sequence,perturb_type,axis,magnitude,units,trajectory_rows,first_timestamp,last_timestamp,duration_s,ate_rmse_m,rpe_trans_rmse_m,rpe_rot_rmse_deg,completion_rate,estimate_path_length_m,estimate_start_to_end_displacement_m,estimate_max_radius_from_start_m
+openvins_MH03_nominal_full_000,MH_03_medium,nominal,none,0,none,2311,1403637149.98832,1403637265.48832,115.5,0.107259,0.004381,0.018141,0.849802,128.75609557632637,0.12757571104642138,9.996465261437864
+openvins_MH03_rot_z_5deg_full_000,MH_03_medium,rotation,z,5.0,deg,2311,1403637149.98832,1403637265.48832,115.5,831.507723,1.944413,0.072117,0.849802,3154.533011310004,2974.618026778691,2974.618026778691
