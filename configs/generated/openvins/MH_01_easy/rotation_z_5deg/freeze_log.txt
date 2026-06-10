@@ -1,4 +1,4 @@
-input: configs/generated/openvins/MH_01_easy/rotation_z_5deg/estimator_config.yaml
+input: configs/nominal/openvins/euroc_mav/estimator_config.yaml
 output: configs/generated/openvins/MH_01_easy/rotation_z_5deg/estimator_config_frozen.yaml
 calib_cam_extrinsics: false
 calib_cam_intrinsics: false
