@@ -36,3 +36,45 @@ The current reported perturbations modify the camera-IMU extrinsic transform.
 
 Reported perturbation families:
 
+```text
+rotation about IMU z axis
+translation along IMU y axis
+```
+
+Each run uses a generated config copied into `results/configs_used/<run_id>/`.
+
+## Metrics
+
+| Metric | Meaning |
+|---|---|
+| ATE RMSE | absolute trajectory error after SE(3) alignment |
+| RPE translation RMSE | relative translational drift over a fixed frame delta |
+| RPE rotation RMSE | relative rotational drift over a fixed frame delta |
+| completion rate | estimated trajectory duration divided by bag duration |
+
+ATE and RPE are computed with evo. ATE uses SE(3) alignment with no scale correction.
+
+## Interpretation rules
+
+A lower ATE/RPE value for a perturbed run should not be interpreted as improved calibration without additional repeated trials and broader validation.
+
+A run can have `status=success` if OpenVINS produced an output trajectory, even if the resulting trajectory is physically unusable.
+
+Large ATE, large RPE, or visual divergence should be interpreted as accuracy failure even when the process itself completed.
+
+## Current main finding
+
+On MH_01_easy, a 5 degree z-axis rotation perturbation increased ATE RMSE from 0.139204 m to 2.064969 m.
+
+On MH_03_medium, the same perturbation increased ATE RMSE from 0.107259 m to 831.507723 m.
+
+For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm stayed near nominal ATE.
+
+## Limitations
+
+- only one estimator is reported
+- only two EuRoC sequences are reported
+- only z-axis rotation and y-axis translation are reported
+- MH_03_medium does not yet have a full perturbation sweep
+- timestamp perturbation is planned but not reported
+- recovery experiments are planned but not reported
