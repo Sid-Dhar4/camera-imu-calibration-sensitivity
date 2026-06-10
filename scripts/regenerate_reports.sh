@@ -37,4 +37,7 @@ python scripts/plot_aligned_tum_trajectories.py \
   --output-prefix results/plots/mh03_gt_nominal_rot5_aligned \
   --max-dt 0.01
 
+echo "== Check referenced artifacts =="
+python scripts/check_artifacts_exist.py
+
 echo "== Done =="
