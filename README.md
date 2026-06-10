@@ -101,6 +101,13 @@ Additional plot:
 
 - `results/plots/mh01_rotation_z_rpe_rot_rmse.png`
 
+## Documentation
+
+| Document | Purpose |
+|---|---|
+| `docs/reproducibility.md` | Local setup assumptions, rerun steps, and what can be reproduced from checked-in artifacts |
+| `docs/experiment_protocol.md` | Benchmark protocol, metrics, interpretation rules, and limitations |
+
 ## Repository layout
 
 ```text
