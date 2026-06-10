@@ -1,0 +1,11 @@
+run_id: openvins_MH01_trans_y_2cm_full_000
+sequence: MH_01_easy
+backend: openvins
+perturb_type: translation
+perturb_axis: y
+perturb_magnitude: 2
+perturb_units: cm
+status: prepared_not_run
+config_path: results/configs_used/openvins_MH01_trans_y_2cm_full_000/estimator_config.yaml
+trajectory_output: results/trajectories/perturbed/openvins_MH01_trans_y_2cm_full_000/ov_estimate.txt
+notes: camera calibration flags frozen; full MH_01_easy run configuration
