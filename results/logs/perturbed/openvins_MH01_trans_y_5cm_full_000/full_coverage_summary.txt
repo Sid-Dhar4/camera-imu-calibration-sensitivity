@@ -1,0 +1,5 @@
+estimated_duration_s: 139.100000
+trajectory_rows: 2783
+ov_estimate_lines: 2784
+ov_estimate_std_lines: 2784
+traj_timing_lines: 2784
