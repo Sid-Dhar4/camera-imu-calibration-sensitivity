@@ -1,0 +1,9 @@
+label,perturb_type,axis,magnitude,units,ate_rmse_m,rpe_trans_rmse_m,rpe_rot_rmse_deg,completion_rate
+nominal,nominal,none,0.0,none,0.139204,0.048954,0.268658,0.740891
+rotation_z_0.5deg,rotation,z,0.5,deg,0.100281,0.029226,0.229276,0.740881
+rotation_z_1.0deg,rotation,z,1.0,deg,0.117957,0.033253,0.260834,0.740881
+rotation_z_2.0deg,rotation,z,2.0,deg,0.188732,0.042565,0.237368,0.740881
+rotation_z_5.0deg,rotation,z,5.0,deg,2.064969,0.194584,0.343487,0.740881
+translation_y_1.0cm,translation,y,1.0,cm,0.100477,0.003801,0.047589,0.740881
+translation_y_2.0cm,translation,y,2.0,cm,0.073369,0.00252,0.040947,0.740881
+translation_y_5.0cm,translation,y,5.0,cm,0.095484,0.003577,0.042328,0.740881
