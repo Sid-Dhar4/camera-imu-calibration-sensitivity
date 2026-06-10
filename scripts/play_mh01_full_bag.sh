@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 if [ "$#" -ne 1 ]; then
   echo "Usage: bash scripts/play_mh01_full_bag.sh <run_id>" >&2

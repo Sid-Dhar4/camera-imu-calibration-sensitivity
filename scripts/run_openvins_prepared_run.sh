@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 if [ "$#" -ne 1 ]; then
   echo "Usage: bash scripts/run_openvins_prepared_run.sh <run_id>" >&2
