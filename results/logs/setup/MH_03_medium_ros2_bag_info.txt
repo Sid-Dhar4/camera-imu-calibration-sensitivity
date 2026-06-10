@@ -1,0 +1,15 @@
+
+Files:             MH_03_medium.db3
+Bag size:          1.8 GiB
+Storage id:        sqlite3
+ROS Distro:        rosbags
+Duration:          135.914059095s
+Start:             Jun 24 2014 15:12:10.549400753 (1403637130.549400753)
+End:               Jun 24 2014 15:14:26.463459848 (1403637266.463459848)
+Messages:          34284
+Topic information: Topic: /cam0/image_raw | Type: sensor_msgs/msg/Image | Count: 2700 | Serialization Format: cdr
+                   Topic: /cam1/image_raw | Type: sensor_msgs/msg/Image | Count: 2700 | Serialization Format: cdr
+                   Topic: /imu0 | Type: sensor_msgs/msg/Imu | Count: 27008 | Serialization Format: cdr
+                   Topic: /leica/position | Type: geometry_msgs/msg/PointStamped | Count: 1876 | Serialization Format: cdr
+Service:           0
+Service information: 
