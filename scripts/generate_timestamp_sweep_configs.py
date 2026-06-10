@@ -57,7 +57,7 @@ def generate_one(sequence: str, magnitude_ms: float, source_dir: Path, output_ro
     frozen = freeze_estimator_config(est_text)
     (out_dir / "estimator_config_frozen.yaml").write_text(frozen)
 
-    (out_dir / "generation_log.txt").write_text("\\n".join([
+    (out_dir / "generation_log.txt").write_text("\n".join([
         f"sequence: {sequence}",
         "perturb_type: timestamp",
         f"magnitude_ms: {magnitude_ms}",
@@ -67,7 +67,7 @@ def generate_one(sequence: str, magnitude_ms: float, source_dir: Path, output_ro
         f"output_dir: {out_dir}",
     ]) + "\n")
 
-    (out_dir / "freeze_log.txt").write_text("\\n".join([
+    (out_dir / "freeze_log.txt").write_text("\n".join([
         f"input: {source_dir / 'estimator_config.yaml'}",
         f"output: {out_dir / 'estimator_config_frozen.yaml'}",
         "calib_cam_extrinsics: false",
