@@ -29,6 +29,10 @@ jobs:
         run: |
           python scripts/check_results_schema.py results/metrics.csv
 
+      - name: Check stale claims
+        run: |
+          python scripts/check_no_stale_claims.py
+
       - name: Reproduce checked-in artifacts
         run: |
           bash scripts/reproduce_checked_in_results.sh

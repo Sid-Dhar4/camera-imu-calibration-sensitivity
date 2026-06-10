@@ -7,12 +7,12 @@ A reproducible benchmark for measuring how camera-IMU calibration error affects 
 ## TL;DR
 
 - Built a reproducible OpenVINS calibration-sensitivity benchmark on EuRoC `MH_01_easy` and `MH_03_medium`.
-- Injected controlled camera-IMU extrinsic perturbations while freezing online calibration.
+- Injected controlled camera-IMU extrinsic and timestamp perturbations while freezing online calibration.
 - A 5 degree rotation-z perturbation increased ATE RMSE by `25.82x` on `MH_01_easy` and `7752.34x` on `MH_03_medium`.
 - Translation-y perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy` in the current runs.
 - Results are reported with evo ATE/RPE metrics, checked-in plots, trajectory overlays, and documented limitations.
 
-This project injects controlled camera-IMU extrinsic perturbations into OpenVINS EuRoC MAV configurations, runs VIO on ROS 2 bags, evaluates trajectories against ground truth with evo, and summarizes the degradation in ATE/RPE metrics.
+This project injects controlled camera-IMU extrinsic and timestamp perturbations into OpenVINS EuRoC MAV configurations, runs VIO on ROS 2 bags, evaluates trajectories against ground truth with evo, and summarizes the degradation in ATE/RPE metrics.
 
 ## Why this matters
 
@@ -38,14 +38,15 @@ nominal config
 | Estimator | OpenVINS |
 | Evaluation | evo ATE/RPE |
 | Alignment | SE(3), no scale correction |
-| Perturbations | camera-IMU z-axis rotation; camera-IMU y-axis translation |
+| Perturbations | camera-IMU z-axis rotation; camera-IMU y-axis translation; camera-IMU timestamp offset |
 | Rotation magnitudes | 0, 0.5, 1, 2, 5 degrees |
 | Translation magnitudes | 1, 2, 5 cm |
+| Timestamp magnitudes | 10 ms reported on `MH_01_easy` |
 | Calibration policy | camera extrinsics, intrinsics, and camera-IMU time offset frozen |
 
 ## Key result
 
-A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.079973 m` to `2.064969 m` on `MH_01_easy`, a `25.82x` increase. On `MH_03_medium`, a 2 degree perturbation increased ATE RMSE from `0.107259 m` to `0.353662 m`, a `3.30x` increase, while the 5 degree perturbation increased ATE RMSE to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`.
+A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.079973 m` to `2.064969 m` on `MH_01_easy`, a `25.82x` increase. On `MH_03_medium`, a 2 degree perturbation increased ATE RMSE from `0.107259 m` to `0.353662 m`, a `3.30x` increase, while the 5 degree perturbation increased ATE RMSE to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`; the reported 10 ms timestamp offset increased ATE RMSE from `0.079973 m` to `0.088672 m`, a `1.11x` increase.
 
 | Rotation z perturbation | ATE RMSE (m) | RPE trans RMSE (m) | RPE rot RMSE (deg) |
 |---:|---:|---:|---:|
@@ -258,9 +259,9 @@ Run:
 ## Limitations
 
 - Full rotation and translation sweeps are currently reported for `MH_01_easy`; `MH_03_medium` currently has nominal, rotation-z 2 degree, and rotation-z 5 degree results.
-- Current reported perturbations cover z-axis camera-IMU rotation and y-axis camera-IMU translation only.
+- Current reported perturbations cover z-axis camera-IMU rotation, y-axis camera-IMU translation, and one MH_01_easy camera-IMU timestamp offset.
 - Results should not be generalized to all axes, all trajectories, or all VIO systems.
-- Timestamp perturbation is planned but not reported here.
+- Only one timestamp perturbation is reported so far: 10 ms on `MH_01_easy`.
 - Recovery experiments are not claimed in the current result.
 - Small perturbations appearing better than nominal should not be interpreted as improved calibration.
 
@@ -269,5 +270,5 @@ Run:
 - x/y/z translation-axis comparison
 - broader MH_03_medium perturbation sweep
 - x/y/z rotation-axis comparison
-- error-budget summary comparing rotation and translation sensitivity
-- optional timestamp offset perturbation
+- broader error-budget summary comparing rotation, translation, and timestamp sensitivity
+- broader timestamp offset sweep, including larger offsets and MH_03_medium
