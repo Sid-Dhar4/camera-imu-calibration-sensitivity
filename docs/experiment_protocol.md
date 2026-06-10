@@ -28,7 +28,7 @@ Current completed coverage:
 | Sequence | Nominal | Rotation-z sweep | Translation-y sweep |
 |---|---:|---:|---:|
 | MH_01_easy | yes | 0.5, 1, 2, 5 deg | 1, 2, 5 cm |
-| MH_03_medium | yes | 2, 5 deg | not yet reported |
+| MH_03_medium | yes | 2, 5 deg | 5 cm |
 
 ## Perturbations
 
@@ -68,13 +68,13 @@ On MH_01_easy, a 5 degree z-axis rotation perturbation increased ATE RMSE from 0
 
 On MH_03_medium, a 2 degree z-axis rotation perturbation increased ATE RMSE from 0.107259 m to 0.353662 m. A 5 degree perturbation increased ATE RMSE to 831.507723 m.
 
-For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm stayed near nominal ATE.
+For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm stayed near nominal ATE. On MH_03_medium, the reported 5 cm translation-y perturbation also stayed near nominal ATE.
 
 ## Limitations
 
 - only one estimator is reported
 - only two EuRoC sequences are reported
 - only z-axis rotation and y-axis translation are reported
-- MH_03_medium does not yet have a full perturbation sweep
+- MH_03_medium has nominal, rotation-z 2/5 degree, and translation-y 5 cm results, but does not yet have a full perturbation sweep
 - timestamp perturbation is planned but not reported
 - recovery experiments are planned but not reported
