@@ -193,6 +193,7 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Artifact | Path |
 |---|---|
 | Metrics table | `results/metrics.csv` |
+| Run manifest | `results/run_manifest.csv` |
 | Rotation sweep table | `results/tables/mh01_rotation_z_sweep.csv` |
 | Rotation sweep report | `reports/mh01_rotation_z_sweep.md` |
 | MH01 trajectory visualization report | `reports/mh01_trajectory_visualization.md` |

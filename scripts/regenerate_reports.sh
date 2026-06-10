@@ -6,6 +6,9 @@ cd "$(dirname "$0")/.."
 echo "== Validate metrics schema =="
 python scripts/check_results_schema.py results/metrics.csv
 
+echo "== Generate run manifest =="
+python scripts/generate_run_manifest.py
+
 echo "== Regenerate MH01 rotation-vs-translation error budget =="
 python scripts/summarize_error_budget.py
 
