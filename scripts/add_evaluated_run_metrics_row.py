@@ -58,7 +58,7 @@ def main() -> int:
     args = parser.parse_args()
 
     metrics_path = Path("results/metrics.csv")
-    bag_info_path = Path("results/logs/setup/MH_01_easy_ros2_bag_info.txt")
+    bag_info_path = Path("results/logs/setup") / f"{args.sequence}_ros2_bag_info.txt"
 
     evo = json.loads(args.evo_summary.read_text())
     coverage = parse_key_value_file(args.coverage_summary)

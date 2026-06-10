@@ -111,7 +111,7 @@ tests/         Regression tests for schema, perturbation, config generation, and
 This repository assumes:
 
 ```text
-EuRoC ROS 2 bag:    ~/datasets/euroc/ros2_bags/MH_01_easy
+EuRoC ROS 2 bags:   ~/datasets/euroc/ros2_bags/MH_01_easy and ~/datasets/euroc/ros2_bags/MH_03_medium
 OpenVINS workspace: ~/openvins_ws_jazzy
 ```
 
@@ -137,13 +137,13 @@ python scripts/prepare_openvins_run_config.py --run-id openvins_MH01_rot_z_2deg_
 Run OpenVINS in one terminal:
 
 ```bash
-bash scripts/run_openvins_prepared_run.sh openvins_MH01_rot_z_2deg_full_000
+bash scripts/run_openvins_prepared_run_generic.sh openvins_MH01_rot_z_2deg_full_000 perturbed
 ```
 
 Play the EuRoC ROS 2 bag in another terminal:
 
 ```bash
-bash scripts/play_mh01_full_bag.sh openvins_MH01_rot_z_2deg_full_000
+bash scripts/play_euroc_full_bag.sh MH_01_easy openvins_MH01_rot_z_2deg_full_000 perturbed
 ```
 
 Convert OpenVINS output to TUM format:
@@ -194,7 +194,7 @@ Run:
 
 ## Limitations
 
-- Current reported sweep is for EuRoC `MH_01_easy` only.
+- Full rotation and translation sweeps are currently reported for `MH_01_easy`; `MH_03_medium` currently has nominal and rotation-z 5 degree results.
 - Current reported perturbations cover z-axis camera-IMU rotation and y-axis camera-IMU translation only.
 - Results should not be generalized to all axes, all trajectories, or all VIO systems.
 - Timestamp perturbation is planned but not reported here.
