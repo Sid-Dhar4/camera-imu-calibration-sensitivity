@@ -1,0 +1,4 @@
+label,run_id,perturb_type,axis,magnitude,units,ate_rmse_m,rpe_trans_rmse_m,rpe_rot_rmse_deg,completion_rate,ate_increase_x
+nominal,openvins_MH03_nominal_full_000,nominal,none,0,none,0.107259,0.004381,0.018141,0.849802,1.0
+rotation_z_2deg,openvins_MH03_rot_z_2deg_full_000,rotation,z,2.0,deg,0.353662,0.094482,0.268001,0.849802,3.2972710914701797
+rotation_z_5deg,openvins_MH03_rot_z_5deg_full_000,rotation,z,5.0,deg,831.507723,1.944413,0.072117,0.849802,7752.335216625179
