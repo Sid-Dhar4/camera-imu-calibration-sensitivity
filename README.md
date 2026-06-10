@@ -8,7 +8,7 @@ A reproducible benchmark for measuring how camera-IMU calibration error affects 
 
 - Built a reproducible OpenVINS calibration-sensitivity benchmark on EuRoC `MH_01_easy` and `MH_03_medium`.
 - Injected controlled camera-IMU extrinsic perturbations while freezing online calibration.
-- A 5 degree rotation-z perturbation increased ATE RMSE by `14.83x` on `MH_01_easy` and `7752.34x` on `MH_03_medium`.
+- A 5 degree rotation-z perturbation increased ATE RMSE by `25.82x` on `MH_01_easy` and `7752.34x` on `MH_03_medium`.
 - Translation-y perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy` in the current runs.
 - Results are reported with evo ATE/RPE metrics, checked-in plots, trajectory overlays, and documented limitations.
 
@@ -45,11 +45,11 @@ nominal config
 
 ## Key result
 
-A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase. On `MH_03_medium`, a 2 degree perturbation increased ATE RMSE from `0.107259 m` to `0.353662 m`, a `3.30x` increase, while the 5 degree perturbation increased ATE RMSE to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`.
+A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.079973 m` to `2.064969 m` on `MH_01_easy`, a `25.82x` increase. On `MH_03_medium`, a 2 degree perturbation increased ATE RMSE from `0.107259 m` to `0.353662 m`, a `3.30x` increase, while the 5 degree perturbation increased ATE RMSE to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`.
 
 | Rotation z perturbation | ATE RMSE (m) | RPE trans RMSE (m) | RPE rot RMSE (deg) |
 |---:|---:|---:|---:|
-| 0.0 deg | 0.139204 | 0.048954 | 0.268658 |
+| 0.0 deg | 0.079973 | 0.032763 | 0.225416 |
 | 0.5 deg | 0.100281 | 0.029226 | 0.229276 |
 | 1.0 deg | 0.117957 | 0.033253 | 0.260834 |
 | 2.0 deg | 0.188732 | 0.042565 | 0.237368 |
@@ -60,7 +60,7 @@ Rotation-z sensitivity summary:
 
 | Case | Nominal ATE RMSE (m) | Perturbed ATE RMSE (m) | Increase |
 |---|---:|---:|---:|
-| MH_01_easy | 0.139204 | 2.064969 | 14.83x |
+| MH_01_easy | 0.079973 | 2.064969 | 25.82x |
 | MH_03_medium 2deg | 0.107259 | 0.353662 | 3.30x |
 | MH_03_medium 5deg | 0.107259 | 831.507723 | 7752.34x |
 

@@ -11,6 +11,7 @@ python scripts/generate_run_manifest.py
 
 echo "== Regenerate MH01 rotation-vs-translation error budget =="
 python scripts/summarize_error_budget.py
+python scripts/summarize_mh01_rotation_z_sweep.py
 
 echo "== Regenerate MH01/MH03 rotation-z 5deg multi-sequence summary =="
 python scripts/summarize_multisequence_rot5.py
@@ -41,6 +42,7 @@ python scripts/plot_aligned_tum_trajectories.py \
   --max-dt 0.01
 
 echo "== Check referenced artifacts =="
+python scripts/check_reported_configs_frozen.py
 python scripts/check_artifacts_exist.py
 
 echo "== Done =="

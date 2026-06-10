@@ -8,14 +8,14 @@ This report compares the effect of a 5 degree camera-IMU z-axis rotation perturb
 
 | Sequence | Nominal ATE RMSE (m) | Rotation-z 5deg ATE RMSE (m) | Increase |
 |---|---:|---:|---:|
-| MH_01_easy | 0.139204 | 2.064969 | 14.83x |
+| MH_01_easy | 0.079973 | 2.064969 | 25.82x |
 | MH_03_medium | 0.107259 | 831.507723 | 7752.34x |
 
 ## Key observation
 
 The 5 degree z-axis camera-IMU rotation perturbation degrades both sequences, but the effect is much larger on `MH_03_medium`.
 
-On `MH_01_easy`, ATE RMSE increases from `0.139204 m` to `2.064969 m`.
+On `MH_01_easy`, ATE RMSE increases from `0.079973 m` to `2.064969 m`.
 
 On `MH_03_medium`, ATE RMSE increases from `0.107259 m` to `831.507723 m`, indicating severe trajectory divergence despite the estimator producing an output trajectory.
 

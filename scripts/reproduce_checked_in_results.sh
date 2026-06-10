@@ -10,6 +10,7 @@ echo "It regenerates tables, plots, reports, run manifest, and artifact checks f
 python scripts/check_results_schema.py results/metrics.csv
 python scripts/generate_run_manifest.py
 python scripts/summarize_error_budget.py
+python scripts/summarize_mh01_rotation_z_sweep.py
 python scripts/summarize_multisequence_rot5.py
 python scripts/summarize_mh03_rotation_z_sensitivity.py
 python scripts/summarize_mh03_rotation_vs_translation.py
@@ -29,6 +30,7 @@ python scripts/plot_aligned_tum_trajectories.py \
   --output-prefix results/plots/mh03_gt_nominal_rot5_aligned \
   --max-dt 0.01
 
+python scripts/check_reported_configs_frozen.py
 python scripts/check_artifacts_exist.py
 
 echo "== Done: checked-in artifacts reproduced =="

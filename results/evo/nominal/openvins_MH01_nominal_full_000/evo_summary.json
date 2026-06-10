@@ -1,5 +1,5 @@
 {
-  "ate_rmse_m": 0.139204,
-  "rpe_trans_rmse_m": 0.048954,
-  "rpe_rot_rmse_deg": 0.268658
+  "ate_rmse_m": 0.079973,
+  "rpe_trans_rmse_m": 0.032763,
+  "rpe_rot_rmse_deg": 0.225416
 }

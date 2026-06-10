@@ -8,13 +8,13 @@ This report compares the current camera-IMU rotation-z sensitivity sweep against
 
 On this sequence and estimator setup, the tested rotation perturbation produced a much larger degradation than the tested y-axis translation perturbations.
 
-- Nominal ATE RMSE: `0.139204 m`
+- Nominal ATE RMSE: `0.079973 m`
 - Rotation-z 5 deg ATE RMSE: `2.064969 m`
 - Translation-y 5 cm ATE RMSE: `0.095484 m`
 - Translation-y 2 cm ATE RMSE: `0.073369 m`
 - Translation-y 1 cm ATE RMSE: `0.100477 m`
 
-The 5 degree z-axis rotation perturbation increased ATE RMSE by `14.83x` relative to nominal. The tested y-axis translation perturbations did not show the same collapse on this sequence.
+The 5 degree z-axis rotation perturbation increased ATE RMSE by `25.82x` relative to nominal. The tested y-axis translation perturbations did not show the same collapse on this sequence.
 
 ## Artifacts
 

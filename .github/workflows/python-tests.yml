@@ -37,6 +37,10 @@ jobs:
         run: |
           python scripts/check_artifacts_exist.py
 
+      - name: Check reported configs are frozen
+        run: |
+          python scripts/check_reported_configs_frozen.py
+
       - name: Run tests
         run: |
           PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -q tests
