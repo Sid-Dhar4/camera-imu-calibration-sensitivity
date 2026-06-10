@@ -1,0 +1,15 @@
+{
+  "run_id": "openvins_MH01_rot_z_0p5deg_full_000",
+  "sequence": "MH_01_easy",
+  "backend": "openvins",
+  "perturb_type": "rotation",
+  "perturb_axis": "z",
+  "perturb_magnitude": 0.5,
+  "perturb_units": "deg",
+  "alignment": "SE3_no_scale",
+  "t_max_diff_s": 0.01,
+  "rpe_delta_frames": 20,
+  "ate_rmse_m": 0.100281,
+  "rpe_trans_rmse_m": 0.029226,
+  "rpe_rot_rmse_deg": 0.229276
+}
