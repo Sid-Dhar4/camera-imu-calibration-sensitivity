@@ -29,6 +29,10 @@ jobs:
         run: |
           python scripts/check_results_schema.py results/metrics.csv
 
+      - name: Reproduce checked-in artifacts
+        run: |
+          bash scripts/reproduce_checked_in_results.sh
+
       - name: Check referenced artifacts
         run: |
           python scripts/check_artifacts_exist.py

@@ -130,6 +130,7 @@ Additional plot:
 |---|---|
 | `docs/reproducibility.md` | Local setup assumptions, rerun steps, and what can be reproduced from checked-in artifacts |
 | `docs/experiment_protocol.md` | Benchmark protocol, metrics, interpretation rules, and limitations |
+| `docs/setup_from_scratch.md` | Fresh-clone setup, checked-in artifact reproduction, and full OpenVINS rerun assumptions |
 
 ## Repository layout
 
@@ -158,6 +159,12 @@ Run tests:
 ```bash
 source .venv/bin/activate
 ./scripts/run_tests.sh
+```
+
+Reproduce checked-in reports, plots, and manifest without ROS/OpenVINS:
+
+```bash
+./scripts/reproduce_checked_in_results.sh
 ```
 
 Generate rotation sweep configs:
