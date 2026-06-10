@@ -1,6 +1,16 @@
 # Camera-IMU Calibration Sensitivity Benchmark
 
+[![python-tests](https://github.com/Sid-Dhar4/camera-imu-calibration-sensitivity/actions/workflows/python-tests.yml/badge.svg)](https://github.com/Sid-Dhar4/camera-imu-calibration-sensitivity/actions/workflows/python-tests.yml)
+
 A reproducible benchmark for measuring how camera-IMU calibration error affects visual-inertial odometry accuracy.
+
+## TL;DR
+
+- Built a reproducible OpenVINS calibration-sensitivity benchmark on EuRoC `MH_01_easy` and `MH_03_medium`.
+- Injected controlled camera-IMU extrinsic perturbations while freezing online calibration.
+- A 5 degree rotation-z perturbation increased ATE RMSE by `14.83x` on `MH_01_easy` and `7752.34x` on `MH_03_medium`.
+- Translation-y perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy` in the current runs.
+- Results are reported with evo ATE/RPE metrics, checked-in plots, trajectory overlays, and documented limitations.
 
 This project injects controlled camera-IMU extrinsic perturbations into OpenVINS EuRoC MAV configurations, runs VIO on ROS 2 bags, evaluates trajectories against ground truth with evo, and summarizes the degradation in ATE/RPE metrics.
 
