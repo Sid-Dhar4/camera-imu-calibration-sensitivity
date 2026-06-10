@@ -1,0 +1,11 @@
+run_id: openvins_MH03_nominal_full_000
+sequence: MH_03_medium
+backend: openvins
+perturb_type: nominal
+perturb_axis: none
+perturb_magnitude: 0
+perturb_units: none
+status: prepared_not_run
+config_path: results/configs_used/openvins_MH03_nominal_full_000/estimator_config.yaml
+trajectory_output: results/trajectories/nominal/openvins_MH03_nominal_full_000/ov_estimate.txt
+notes: camera calibration flags frozen; full MH_03_medium run configuration

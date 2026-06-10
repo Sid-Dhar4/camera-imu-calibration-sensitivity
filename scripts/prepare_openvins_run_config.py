@@ -23,10 +23,12 @@ def prepare_run_config(
     perturb_units: str,
     sequence: str,
 ) -> Path:
+    run_group = "nominal" if perturb_type == "nominal" else "perturbed"
+
     run_config_dir = output_root / run_id
-    run_log_dir = log_root / "perturbed" / run_id
-    run_traj_dir = trajectory_root / "perturbed" / run_id
-    run_evo_dir = evo_root / run_id
+    run_log_dir = log_root / run_group / run_id
+    run_traj_dir = trajectory_root / run_group / run_id
+    run_evo_dir = evo_root / run_group / run_id
 
     if run_config_dir.exists():
         shutil.rmtree(run_config_dir)
@@ -90,7 +92,7 @@ def prepare_run_config(
                 "status: prepared_not_run",
                 f"config_path: {run_config_dir / 'estimator_config.yaml'}",
                 f"trajectory_output: {run_traj_dir / 'ov_estimate.txt'}",
-                "notes: camera calibration flags frozen; full MH_01_easy run configuration",
+                f"notes: camera calibration flags frozen; full {sequence} run configuration",
             ]
         )
         + "\n"
