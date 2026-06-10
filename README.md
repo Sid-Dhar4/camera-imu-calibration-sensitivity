@@ -24,7 +24,7 @@ nominal config
 
 | Item | Value |
 |---|---|
-| Dataset | EuRoC MAV `MH_01_easy` |
+| Datasets | EuRoC MAV `MH_01_easy`, `MH_03_medium` |
 | Estimator | OpenVINS |
 | Evaluation | evo ATE/RPE |
 | Alignment | SE(3), no scale correction |
@@ -35,7 +35,7 @@ nominal config
 
 ## Key result
 
-A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on this sequence.
+A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.139204 m` to `2.064969 m` on `MH_01_easy`, a `14.83x` increase. On `MH_03_medium`, the same perturbation increased ATE RMSE from `0.107259 m` to `831.507723 m`, a `7752.34x` increase. In contrast, tested y-axis translation perturbations from 1 to 5 cm stayed near nominal ATE on `MH_01_easy`.
 
 | Rotation z perturbation | ATE RMSE (m) | RPE trans RMSE (m) | RPE rot RMSE (deg) |
 |---:|---:|---:|---:|
@@ -44,6 +44,14 @@ A 5 degree camera-IMU z-axis rotation perturbation increased ATE RMSE from `0.13
 | 1.0 deg | 0.117957 | 0.033253 | 0.260834 |
 | 2.0 deg | 0.188732 | 0.042565 | 0.237368 |
 | 5.0 deg | 2.064969 | 0.194584 | 0.343487 |
+
+
+Multi-sequence rotation-z 5 degree result:
+
+| Sequence | Nominal ATE RMSE (m) | Rotation-z 5deg ATE RMSE (m) | Increase |
+|---|---:|---:|---:|
+| MH_01_easy | 0.139204 | 2.064969 | 14.83x |
+| MH_03_medium | 0.107259 | 831.507723 | 7752.34x |
 
 Translation-y results:
 
@@ -64,6 +72,10 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 ### RPE translation degradation
 
 ![RPE translation RMSE vs rotation perturbation](results/plots/mh01_rotation_z_rpe_trans_rmse.png)
+
+### Multi-sequence rotation-z 5 degree sensitivity
+
+![Multi-sequence rotation-z 5 degree ATE RMSE](results/plots/mh01_mh03_rotation_z_5deg_ate_rmse.png)
 
 ### Rotation-vs-translation error budget
 
@@ -156,8 +168,11 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Trajectory visualization report | `reports/mh01_trajectory_visualization.md` |
 | ATE plot | `results/plots/mh01_rotation_z_ate_rmse.png` |
 | Rotation-vs-translation plot | `results/plots/mh01_rotation_vs_translation_ate_rmse.png` |
+| Multi-sequence rotation plot | `results/plots/mh01_mh03_rotation_z_5deg_ate_rmse.png` |
 | Error-budget table | `results/tables/mh01_rotation_vs_translation_error_budget.csv` |
+| Multi-sequence table | `results/tables/mh01_mh03_rotation_z_5deg_summary.csv` |
 | Error-budget report | `reports/mh01_rotation_vs_translation_error_budget.md` |
+| Multi-sequence report | `reports/mh01_mh03_rotation_z_5deg_summary.md` |
 | Trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
 
 ## Tests
@@ -189,7 +204,7 @@ Run:
 ## Planned extensions
 
 - x/y/z translation-axis comparison
-- MH_03_medium evaluation
+- broader MH_03_medium perturbation sweep
 - x/y/z rotation-axis comparison
 - error-budget summary comparing rotation and translation sensitivity
 - optional timestamp offset perturbation
