@@ -64,7 +64,7 @@ Large ATE, large RPE, or visual divergence should be interpreted as accuracy fai
 
 ## Current main finding
 
-On MH_01_easy, a 5 degree z-axis rotation perturbation increased ATE RMSE from 0.139204 m to 2.064969 m.
+On MH_01_easy, a 5 degree z-axis rotation perturbation increased ATE RMSE from 0.079973 m to 2.064969 m.
 
 On MH_03_medium, a 2 degree z-axis rotation perturbation increased ATE RMSE from 0.107259 m to 0.353662 m. A 5 degree perturbation increased ATE RMSE to 831.507723 m.
 
