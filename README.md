@@ -85,9 +85,17 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 
 Ground truth, nominal OpenVINS, and 5 degree perturbation are time-associated and SE(3)-aligned before plotting.
 
-![Aligned trajectory comparison XY](results/plots/mh01_gt_nominal_rot5_aligned_xy.png)
+MH_01_easy:
 
-![Aligned trajectory comparison XZ](results/plots/mh01_gt_nominal_rot5_aligned_xz.png)
+![MH01 aligned trajectory comparison XY](results/plots/mh01_gt_nominal_rot5_aligned_xy.png)
+
+![MH01 aligned trajectory comparison XZ](results/plots/mh01_gt_nominal_rot5_aligned_xz.png)
+
+MH_03_medium:
+
+![MH03 aligned trajectory comparison XY](results/plots/mh03_gt_nominal_rot5_aligned_xy.png)
+
+![MH03 aligned trajectory comparison XZ](results/plots/mh03_gt_nominal_rot5_aligned_xz.png)
 
 Additional plot:
 
@@ -165,7 +173,8 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Metrics table | `results/metrics.csv` |
 | Rotation sweep table | `results/tables/mh01_rotation_z_sweep.csv` |
 | Rotation sweep report | `reports/mh01_rotation_z_sweep.md` |
-| Trajectory visualization report | `reports/mh01_trajectory_visualization.md` |
+| MH01 trajectory visualization report | `reports/mh01_trajectory_visualization.md` |
+| MH03 trajectory visualization report | `reports/mh03_trajectory_visualization.md` |
 | ATE plot | `results/plots/mh01_rotation_z_ate_rmse.png` |
 | Rotation-vs-translation plot | `results/plots/mh01_rotation_vs_translation_ate_rmse.png` |
 | Multi-sequence rotation plot | `results/plots/mh01_mh03_rotation_z_5deg_ate_rmse.png` |
@@ -173,7 +182,8 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Multi-sequence table | `results/tables/mh01_mh03_rotation_z_5deg_summary.csv` |
 | Error-budget report | `reports/mh01_rotation_vs_translation_error_budget.md` |
 | Multi-sequence report | `reports/mh01_mh03_rotation_z_5deg_summary.md` |
-| Trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
+| MH01 trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |
+| MH03 trajectory overlay | `results/plots/mh03_gt_nominal_rot5_aligned_xy.png` |
 
 ## Tests
 
