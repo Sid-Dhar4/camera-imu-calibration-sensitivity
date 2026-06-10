@@ -12,6 +12,7 @@ python scripts/generate_run_manifest.py
 echo "== Regenerate MH01 rotation-vs-translation error budget =="
 python scripts/summarize_error_budget.py
 python scripts/summarize_mh01_rotation_z_sweep.py
+python scripts/summarize_mh01_timestamp_sensitivity.py
 
 echo "== Regenerate MH01/MH03 rotation-z 5deg multi-sequence summary =="
 python scripts/summarize_multisequence_rot5.py

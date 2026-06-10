@@ -92,6 +92,10 @@ Small perturbations from 0.5 to 2 degrees remain close to nominal on this sequen
 
 ![Rotation vs translation ATE RMSE](results/plots/mh01_rotation_vs_translation_ate_rmse.png)
 
+### MH_01_easy timestamp sensitivity
+
+![MH01 timestamp sensitivity ATE RMSE](results/plots/mh01_timestamp_sensitivity_ate_rmse.png)
+
 ### MH_03_medium rotation-z sensitivity
 
 ![MH03 rotation-z sensitivity ATE RMSE](results/plots/mh03_rotation_z_sensitivity_ate_rmse.png)
@@ -218,14 +222,17 @@ evo_ape tum results/trajectories/groundtruth/MH_01_easy_gt.tum results/trajector
 | Multi-sequence rotation plot | `results/plots/mh01_mh03_rotation_z_5deg_ate_rmse.png` |
 | MH03 rotation-z sensitivity plot | `results/plots/mh03_rotation_z_sensitivity_ate_rmse.png` |
 | MH03 rotation-vs-translation plot | `results/plots/mh03_rotation_vs_translation_ate_rmse.png` |
+| MH01 timestamp sensitivity plot | `results/plots/mh01_timestamp_sensitivity_ate_rmse.png` |
 | Error-budget table | `results/tables/mh01_rotation_vs_translation_error_budget.csv` |
 | Multi-sequence table | `results/tables/mh01_mh03_rotation_z_5deg_summary.csv` |
 | MH03 rotation-z sensitivity table | `results/tables/mh03_rotation_z_sensitivity.csv` |
 | MH03 rotation-vs-translation table | `results/tables/mh03_rotation_vs_translation_error_budget.csv` |
+| MH01 timestamp sensitivity table | `results/tables/mh01_timestamp_sensitivity_summary.csv` |
 | Error-budget report | `reports/mh01_rotation_vs_translation_error_budget.md` |
 | Multi-sequence report | `reports/mh01_mh03_rotation_z_5deg_summary.md` |
 | MH03 rotation-z sensitivity report | `reports/mh03_rotation_z_sensitivity.md` |
 | MH03 rotation-vs-translation report | `reports/mh03_rotation_vs_translation_error_budget.md` |
+| MH01 timestamp sensitivity report | `reports/mh01_timestamp_sensitivity.md` |
 | MH03 rotation-z 5deg failure diagnosis | `reports/mh03_rot_z_5deg_failure_diagnosis.md` |
 | MH03 rotation-z 5deg failure diagnosis table | `results/tables/mh03_rot_z_5deg_failure_diagnosis.csv` |
 | MH01 trajectory overlay | `results/plots/mh01_gt_nominal_rot5_aligned_xy.png` |

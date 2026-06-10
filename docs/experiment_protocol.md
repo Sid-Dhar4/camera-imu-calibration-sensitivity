@@ -25,10 +25,10 @@ EuRoC MAV MH_03_medium
 
 Current completed coverage:
 
-| Sequence | Nominal | Rotation-z sweep | Translation-y sweep |
-|---|---:|---:|---:|
-| MH_01_easy | yes | 0.5, 1, 2, 5 deg | 1, 2, 5 cm |
-| MH_03_medium | yes | 2, 5 deg | 5 cm |
+| Sequence | Nominal | Rotation-z sweep | Translation-y sweep | Timestamp offset |
+|---|---:|---:|---:|---:|
+| MH_01_easy | yes | 0.5, 1, 2, 5 deg | 1, 2, 5 cm | 10 ms |
+| MH_03_medium | yes | 2, 5 deg | 5 cm | not yet reported |
 
 ## Perturbations
 
@@ -39,6 +39,7 @@ Reported perturbation families:
 ```text
 rotation about IMU z axis
 translation along IMU y axis
+camera-IMU timestamp offset
 ```
 
 Each run uses a generated config copied into `results/configs_used/<run_id>/`.
@@ -68,7 +69,7 @@ On MH_01_easy, a 5 degree z-axis rotation perturbation increased ATE RMSE from 0
 
 On MH_03_medium, a 2 degree z-axis rotation perturbation increased ATE RMSE from 0.107259 m to 0.353662 m. A 5 degree perturbation increased ATE RMSE to 831.507723 m.
 
-For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm stayed near nominal ATE. On MH_03_medium, the reported 5 cm translation-y perturbation also stayed near nominal ATE.
+For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm stayed near nominal ATE. On MH_03_medium, the reported 5 cm translation-y perturbation also stayed near nominal ATE. On MH_01_easy, a 10 ms timestamp offset increased ATE RMSE from 0.079973 m to 0.088672 m.
 
 ## Limitations
 
@@ -76,5 +77,5 @@ For the current MH_01_easy translation-y sweep, perturbations from 1 to 5 cm sta
 - only two EuRoC sequences are reported
 - only z-axis rotation and y-axis translation are reported
 - MH_03_medium has nominal, rotation-z 2/5 degree, and translation-y 5 cm results, but does not yet have a full perturbation sweep
-- timestamp perturbation is planned but not reported
+- only one timestamp perturbation is reported so far: 10 ms on MH_01_easy
 - recovery experiments are planned but not reported

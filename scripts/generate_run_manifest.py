@@ -42,6 +42,8 @@ def included_reports(row: dict) -> str:
         reports.append("reports/mh01_rotation_vs_translation_error_budget.md")
         if ptype in {"nominal", "rotation"}:
             reports.append("reports/mh01_rotation_z_sweep.md")
+        if ptype in {"nominal", "timestamp"} or (ptype == "rotation" and axis == "z" and mag == "5.0") or (ptype == "translation" and axis == "y" and mag == "5.0"):
+            reports.append("reports/mh01_timestamp_sensitivity.md")
 
     if seq == "MH_03_medium" and (ptype == "nominal" or (ptype == "rotation" and axis == "z")):
         reports.append("reports/mh03_rotation_z_sensitivity.md")

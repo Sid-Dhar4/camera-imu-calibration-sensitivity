@@ -11,6 +11,7 @@ python scripts/check_results_schema.py results/metrics.csv
 python scripts/generate_run_manifest.py
 python scripts/summarize_error_budget.py
 python scripts/summarize_mh01_rotation_z_sweep.py
+python scripts/summarize_mh01_timestamp_sensitivity.py
 python scripts/summarize_multisequence_rot5.py
 python scripts/summarize_mh03_rotation_z_sensitivity.py
 python scripts/summarize_mh03_rotation_vs_translation.py
